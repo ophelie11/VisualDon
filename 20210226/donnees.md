@@ -10,4 +10,4 @@ Ce jeu de données présente les prix à la production dans l'agriculture suisse
 ## Quel est le format? (type de fichier...)
 Le format est un ensemble de tableaux regroupé dans un pdf de 32 pages.
 ## Idées de visualisation
-Je pense qu'il serait intéressant de faire des graphiques en barre montrant l'évolution par mois pour les catégories. Je ne pense pas qu'il faudrait faire pour chaque produit. 
+Je pense qu'il serait intéressant de faire des graphiques en barre montrant l'évolution par mois pour les catégories. Je ne pense pas qu'il fserait intéressant de faire pour chaque produit. 
