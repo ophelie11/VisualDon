@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        rect {
+            fill: yellow
+        }
+
+        text {
+            font-family: "verdana";
+            font-size: 40px
+        }
+
+        path {
+            fill: yellow;
+            stroke: pink;
+            stroke-width: "3";
+        }
+
+        path:hover {
+            fill: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <svg viewBox="0 0 1000 1000">
+        <rect x="40" y="60" width="150" height="30" />
+        <text id="text" x="50" y="70">Ophélie Baur</text>
+        <!--dessin d'une étoile-->
+        <path id="etoile" d="M 120
+       74 L 149
+       74 L 158
+       48 L 167
+       74 L 196
+       74 L 172.5
+       90 L 181.5
+       116 L 158
+       100 L 134.5
+       116 L 143.5
+       90
+       Z" transform="translate(80, 80)">
+    </svg>
+
+    <script>
+        const etoile = document.getElementById('etoile');
+        const text = document.getElementById('text');
+
+        etoile.onclick = function() {
+            etoile.style.fill = "blue";
+            //etoile.text.replace("coucou");
+        }
+
+        text.onmouseover = function() {
+            text.innerHTML = "Hello world";
+        }
+
+    </script>
+</body>
+  
+</html>
