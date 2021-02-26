@@ -1,1 +1,24 @@
-
+<svg xmlns="http://www.w3.org/2000/svg">
+    <rect x="40" y="60" width="150" height="30" fill="yellow"/>
+    <text x="50" y="70" font-size="40" font-family="verdana">Ophélie Baur</text>
+    <!--dessin d'une étoile-->
+    <path
+    d="M 120
+       74 L 149
+       74 L 158
+       48 L 167
+       74 L 196
+       74 L 172.5
+       90 L 181.5
+       116 L 158
+       100 L 134.5
+       116 L 143.5
+       90
+       Z"
+    fill="yellow"
+    stroke="pink"
+    stroke-width="3.0"
+    transform="translate(80, 80)"
+>
+</path>
+</svg>
