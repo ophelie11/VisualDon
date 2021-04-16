@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/billboard.js@3.0.2/dist/billboard.min.css" />
+    <script src="https://unpkg.com/billboard.js@3.0.2/dist/billboard.pkgd.min.js"></script>
+</head>
+
+<body>
+    <div id="graph"></div>
+    <script>
+
+        const data = [
+            { gare: 'Aigle', passagersMoyens: 6800 },
+            { gare: 'Coppet', passagersMoyens: 6400 },
+            { gare: 'Gland', passagersMoyens: 5500 },
+            { gare: 'Lausanne', passagersMoyens: 89200 },
+            { gare: 'Morges', passagersMoyens: 17000 },
+            { gare: 'Montreux', passagersMoyens: 15800 },
+            { gare: 'Nyon', passagersMoyens: 15900 },
+            { gare: 'Palézieux', passagersMoyens: 4000 },
+            { gare: 'Payerne', passagersMoyens: 4500 },
+            { gare: 'Renens VD', passagersMoyens: 18300 },
+            { gare: 'Vevey', passagersMoyens: 21000 },
+            { gare: 'Yverdon-les-Bains', passagersMoyens: 16800 }
+        ]
+
+
+        bb.generate({
+            bindto: "#graph",
+            data: {
+                type: "bar",
+                //clé et valeur
+                json: { "Passagers moyens VD": data.map(d => d.passagersMoyens) }
+            },
+            axis: {
+                x: {
+                    type: 'category',
+                    categories: data.map(d => d.gare),
+                },
+                y: {
+                    label: 'Nb passagers',
+                }
+            },
+            color: {
+                pattern: ['indianred'],
+            },
+        })
+    </script>
+</body>
+
+</html>
