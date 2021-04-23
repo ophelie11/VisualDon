@@ -1,0 +1,4630 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+  "type": "Feature",
+  "id": "relation/33567",
+  "properties": {
+    "timestamp": "2021-03-26T15:42:28Z",
+    "version": "76",
+    "changeset": "101801765",
+    "user": "Habasch",
+    "uid": "1556082",
+    "colour": "#8F36C8",
+    "from": "Lutry, gare",
+    "name": "Bus 68: Lutry, gare => Croix/Lutry",
+    "nat_ref": "10.068",
+    "network": "Mobilis",
+    "operator": "TL",
+    "public_transport:version": "2",
+    "ref": "68",
+    "route": "bus",
+    "to": "Lutry, Croix/Lutry",
+    "type": "route",
+    "url": "http://www.t-l.ch/",
+    "id": "relation/33567"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6903609,
+        46.5036998
+      ],
+      [
+        6.6891997,
+        46.5042151
+      ],
+      [
+        6.6887271,
+        46.5044157
+      ],
+      [
+        6.6886661,
+        46.5044416
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "relation/33568",
+  "properties": {
+    "timestamp": "2021-03-26T15:42:28Z",
+    "version": "76",
+    "changeset": "101801765",
+    "user": "Habasch",
+    "uid": "1556082",
+    "colour": "#A29BC7",
+    "from": "Lutry, port",
+    "name": "Bus 69: Lutry, port => Lutry, Landar",
+    "nat_ref": "10.069",
+    "network": "Mobilis",
+    "operator": "TL",
+    "public_transport:version": "2",
+    "ref": "69",
+    "route": "bus",
+    "to": "Lutry, Landar",
+    "type": "route",
+    "id": "relation/33568"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.68944,
+        46.5047695
+      ],
+      [
+        6.6894908,
+        46.5047471
+      ],
+      [
+        6.6909065,
+        46.5041586
+      ],
+      [
+        6.6912567,
+        46.5040184
+      ],
+      [
+        6.6913946,
+        46.503989
+      ],
+      [
+        6.6914024,
+        46.5040692
+      ],
+      [
+        6.6914309,
+        46.5043607
+      ],
+      [
+        6.6914677,
+        46.5045361
+      ],
+      [
+        6.6916798,
+        46.5049283
+      ],
+      [
+        6.6918709,
+        46.5054227
+      ],
+      [
+        6.6918846,
+        46.5054581
+      ],
+      [
+        6.691964,
+        46.5056635
+      ],
+      [
+        6.6921099,
+        46.5058762
+      ],
+      [
+        6.6923674,
+        46.5060652
+      ],
+      [
+        6.6925047,
+        46.5061657
+      ],
+      [
+        6.6926077,
+        46.5063075
+      ],
+      [
+        6.6927178,
+        46.5065674
+      ],
+      [
+        6.6927181,
+        46.5067066
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "relation/391339",
+  "properties": {
+    "timestamp": "2021-03-30T21:10:38Z",
+    "version": "181",
+    "changeset": "102009639",
+    "user": "eginhard",
+    "uid": "12637224",
+    "description": "Lausanne – Sion – Brig",
+    "fixme": "Is there a difference with the route with ref=211 ?",
+    "from": "Lausanne",
+    "operator": "SBB",
+    "ref": "100",
+    "route": "railway",
+    "to": "Brig",
+    "type": "route",
+    "id": "relation/391339"
+  },
+  "geometry": {
+    "type": "MultiLineString",
+    "coordinates": [
+      [
+        [
+          6.6928121,
+          46.5031143
+        ],
+        [
+          6.6912238,
+          46.5036329
+        ],
+        [
+          6.6903488,
+          46.5039546
+        ],
+        [
+          6.6885423,
+          46.5047401
+        ]
+      ],
+      [
+        [
+          6.6875348,
+          46.5052059
+        ],
+        [
+          6.6887678,
+          46.5046898
+        ],
+        [
+          6.689642,
+          46.5043023
+        ],
+        [
+          6.6903665,
+          46.5039775
+        ],
+        [
+          6.6912411,
+          46.5036598
+        ],
+        [
+          6.6928359,
+          46.503148
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "relation/402832",
+  "properties": {
+    "timestamp": "2021-03-08T17:07:47Z",
+    "version": "93",
+    "changeset": "100652429",
+    "user": "Halbtax",
+    "uid": "4671660",
+    "from": "Vallorbe",
+    "name": "S2: Vallorbe => Villeneuve",
+    "network": "Mobilis",
+    "network:wikidata": "Q2394222",
+    "operator": "SBB",
+    "public_transport:version": "2",
+    "ref": "S2",
+    "route": "train",
+    "to": "Villeneuve",
+    "type": "route",
+    "via": "Lausanne",
+    "id": "relation/402832"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6875348,
+        46.5052059
+      ],
+      [
+        6.6887678,
+        46.5046898
+      ],
+      [
+        6.689642,
+        46.5043023
+      ],
+      [
+        6.6903665,
+        46.5039775
+      ],
+      [
+        6.6912411,
+        46.5036598
+      ],
+      [
+        6.6928359,
+        46.503148
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "relation/402833",
+  "properties": {
+    "timestamp": "2021-03-08T17:07:47Z",
+    "version": "136",
+    "changeset": "100652429",
+    "user": "Halbtax",
+    "uid": "4671660",
+    "from": "Villeneuve",
+    "name": "S3: Villeneuve => Allaman",
+    "network": "Mobilis",
+    "network:wikidata": "Q2394222",
+    "note": "Laufweg zwischen Lausanne und Renens aufgrund Bau der Überwerfung bis vsl. Dezember 2021 verändert",
+    "operator": "SBB",
+    "public_transport:version": "2",
+    "ref": "S3",
+    "route": "train",
+    "to": "Allaman",
+    "type": "route",
+    "via": "Lausanne",
+    "id": "relation/402833"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6928121,
+        46.5031143
+      ],
+      [
+        6.6912238,
+        46.5036329
+      ],
+      [
+        6.6903488,
+        46.5039546
+      ],
+      [
+        6.6885423,
+        46.5047401
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "relation/936443",
+  "properties": {
+    "timestamp": "2021-03-21T02:47:37Z",
+    "version": "81",
+    "changeset": "101424288",
+    "user": "eric6quatre",
+    "uid": "130849",
+    "crop": "grape",
+    "landuse": "vineyard",
+    "source": "Bing",
+    "type": "multipolygon",
+    "id": "relation/936443"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6904637,
+          46.5025246
+        ],
+        [
+          6.6907523,
+          46.5029503
+        ],
+        [
+          6.6911188,
+          46.5033478
+        ],
+        [
+          6.6914733,
+          46.503853
+        ],
+        [
+          6.6914613,
+          46.5040449
+        ],
+        [
+          6.6916928,
+          46.503996
+        ],
+        [
+          6.692005,
+          46.5038361
+        ],
+        [
+          6.6922557,
+          46.504104
+        ],
+        [
+          6.6923004,
+          46.504108
+        ],
+        [
+          6.6923718,
+          46.5042771
+        ],
+        [
+          6.6921777,
+          46.5043321
+        ],
+        [
+          6.6921333,
+          46.5044126
+        ],
+        [
+          6.6920331,
+          46.504484
+        ],
+        [
+          6.6921992,
+          46.5047995
+        ],
+        [
+          6.6919513,
+          46.5048839
+        ],
+        [
+          6.6923392,
+          46.5051658
+        ],
+        [
+          6.6925613,
+          46.5051075
+        ],
+        [
+          6.6926415,
+          46.5052012
+        ],
+        [
+          6.6926006,
+          46.505215
+        ],
+        [
+          6.6926428,
+          46.5052873
+        ],
+        [
+          6.6924236,
+          46.5053925
+        ],
+        [
+          6.6925754,
+          46.5055262
+        ],
+        [
+          6.6925828,
+          46.5055836
+        ],
+        [
+          6.6925509,
+          46.505652
+        ],
+        [
+          6.6925926,
+          46.505695
+        ],
+        [
+          6.6926003,
+          46.5057276
+        ],
+        [
+          6.6925048,
+          46.5059204
+        ],
+        [
+          6.6925932,
+          46.506003
+        ],
+        [
+          6.6924334,
+          46.5061391
+        ],
+        [
+          6.6922624,
+          46.506029
+        ],
+        [
+          6.692054,
+          46.5061434
+        ],
+        [
+          6.6918407,
+          46.5060228
+        ],
+        [
+          6.6917454,
+          46.5060851
+        ],
+        [
+          6.6915875,
+          46.5059683
+        ],
+        [
+          6.691622,
+          46.5059427
+        ],
+        [
+          6.6915722,
+          46.5058974
+        ],
+        [
+          6.6917672,
+          46.5058042
+        ],
+        [
+          6.6916658,
+          46.505717
+        ],
+        [
+          6.6915845,
+          46.505595
+        ],
+        [
+          6.6917188,
+          46.5055363
+        ],
+        [
+          6.6916867,
+          46.5055013
+        ],
+        [
+          6.6918345,
+          46.5054134
+        ],
+        [
+          6.6916036,
+          46.5048556
+        ],
+        [
+          6.6913954,
+          46.5049293
+        ],
+        [
+          6.6911512,
+          46.5045138
+        ],
+        [
+          6.6908047,
+          46.5046736
+        ],
+        [
+          6.6907598,
+          46.504594
+        ],
+        [
+          6.690669,
+          46.504523
+        ],
+        [
+          6.6904804,
+          46.5047014
+        ],
+        [
+          6.6900486,
+          46.504938
+        ],
+        [
+          6.6897759,
+          46.5051035
+        ],
+        [
+          6.6896283,
+          46.5052699
+        ],
+        [
+          6.6901086,
+          46.5055795
+        ],
+        [
+          6.6899378,
+          46.5057142
+        ],
+        [
+          6.6892147,
+          46.5064709
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "relation/1756596",
+  "properties": {
+    "timestamp": "2014-07-01T14:38:59Z",
+    "version": "5",
+    "changeset": "23412184",
+    "user": "Lepto",
+    "uid": "157550",
+    "landuse": "residential",
+    "source": "Orthophoto Ville de Lausanne 2008",
+    "type": "multipolygon",
+    "id": "relation/1756596"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6904637,
+          46.5025246
+        ],
+        [
+          6.6903636,
+          46.5025625
+        ],
+        [
+          6.6906712,
+          46.5029715
+        ],
+        [
+          6.6909746,
+          46.5033888
+        ],
+        [
+          6.6908645,
+          46.5034685
+        ],
+        [
+          6.6905779,
+          46.5035717
+        ],
+        [
+          6.6905019,
+          46.5036135
+        ],
+        [
+          6.6889236,
+          46.5043037
+        ],
+        [
+          6.6887266,
+          46.5043674
+        ],
+        [
+          6.6886009,
+          46.5043462
+        ],
+        [
+          6.6884799,
+          46.5043935
+        ],
+        [
+          6.6885967,
+          46.5045207
+        ],
+        [
+          6.6876975,
+          46.5049448
+        ],
+        [
+          6.6875606,
+          46.5049847
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "relation/3651064",
+  "properties": {
+    "timestamp": "2021-03-30T21:10:38Z",
+    "version": "76",
+    "changeset": "102009639",
+    "user": "eginhard",
+    "uid": "12637224",
+    "description": "Lausanne - Aigle - Sion - Brig",
+    "fixme": "Is there a difference with the route with ref=100 ?",
+    "from": "Lausanne",
+    "note:ref": "Ref according to RADN SBB",
+    "ref": "211",
+    "route": "railway",
+    "to": "Brig",
+    "type": "route",
+    "id": "relation/3651064"
+  },
+  "geometry": {
+    "type": "MultiLineString",
+    "coordinates": [
+      [
+        [
+          6.6875348,
+          46.5052059
+        ],
+        [
+          6.6887678,
+          46.5046898
+        ],
+        [
+          6.689642,
+          46.5043023
+        ],
+        [
+          6.6903665,
+          46.5039775
+        ],
+        [
+          6.6912411,
+          46.5036598
+        ],
+        [
+          6.6928359,
+          46.503148
+        ]
+      ],
+      [
+        [
+          6.6928121,
+          46.5031143
+        ],
+        [
+          6.6912238,
+          46.5036329
+        ],
+        [
+          6.6903488,
+          46.5039546
+        ],
+        [
+          6.6885423,
+          46.5047401
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "relation/3867053",
+  "properties": {
+    "timestamp": "2014-07-03T15:17:22Z",
+    "version": "1",
+    "changeset": "23821113",
+    "user": "Lepto",
+    "uid": "157550",
+    "landuse": "residential",
+    "source": "Orthophoto Ville de Lausanne 2008",
+    "type": "multipolygon",
+    "id": "relation/3867053"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6883972,
+          46.5050663
+        ],
+        [
+          6.6885312,
+          46.5049905
+        ],
+        [
+          6.6886462,
+          46.5049574
+        ],
+        [
+          6.6889569,
+          46.5048978
+        ],
+        [
+          6.6891023,
+          46.5048752
+        ],
+        [
+          6.6891618,
+          46.5049061
+        ],
+        [
+          6.6892487,
+          46.5048848
+        ],
+        [
+          6.6890265,
+          46.5046852
+        ],
+        [
+          6.6895746,
+          46.5044288
+        ],
+        [
+          6.6903244,
+          46.5040842
+        ],
+        [
+          6.6912863,
+          46.5037247
+        ],
+        [
+          6.6913254,
+          46.5038345
+        ],
+        [
+          6.6913352,
+          46.5040564
+        ],
+        [
+          6.6914613,
+          46.5040449
+        ],
+        [
+          6.6916928,
+          46.503996
+        ],
+        [
+          6.692005,
+          46.5038361
+        ],
+        [
+          6.6922557,
+          46.504104
+        ],
+        [
+          6.6923004,
+          46.504108
+        ],
+        [
+          6.6923718,
+          46.5042771
+        ],
+        [
+          6.6921777,
+          46.5043321
+        ],
+        [
+          6.6921333,
+          46.5044126
+        ],
+        [
+          6.6920331,
+          46.504484
+        ],
+        [
+          6.6921992,
+          46.5047995
+        ],
+        [
+          6.6919513,
+          46.5048839
+        ],
+        [
+          6.6923392,
+          46.5051658
+        ],
+        [
+          6.6925613,
+          46.5051075
+        ],
+        [
+          6.6926415,
+          46.5052012
+        ],
+        [
+          6.6926006,
+          46.505215
+        ],
+        [
+          6.6926428,
+          46.5052873
+        ],
+        [
+          6.6924236,
+          46.5053925
+        ],
+        [
+          6.6925754,
+          46.5055262
+        ],
+        [
+          6.6925828,
+          46.5055836
+        ],
+        [
+          6.6925509,
+          46.505652
+        ],
+        [
+          6.6925926,
+          46.505695
+        ],
+        [
+          6.6926003,
+          46.5057276
+        ],
+        [
+          6.6925048,
+          46.5059204
+        ],
+        [
+          6.6925932,
+          46.506003
+        ],
+        [
+          6.6924334,
+          46.5061391
+        ],
+        [
+          6.6922624,
+          46.506029
+        ],
+        [
+          6.692054,
+          46.5061434
+        ],
+        [
+          6.6918407,
+          46.5060228
+        ],
+        [
+          6.6917454,
+          46.5060851
+        ],
+        [
+          6.6915875,
+          46.5059683
+        ],
+        [
+          6.691622,
+          46.5059427
+        ],
+        [
+          6.6915722,
+          46.5058974
+        ],
+        [
+          6.6917672,
+          46.5058042
+        ],
+        [
+          6.6916658,
+          46.505717
+        ],
+        [
+          6.6915845,
+          46.505595
+        ],
+        [
+          6.6917188,
+          46.5055363
+        ],
+        [
+          6.6916867,
+          46.5055013
+        ],
+        [
+          6.6918345,
+          46.5054134
+        ],
+        [
+          6.6916036,
+          46.5048556
+        ],
+        [
+          6.6913954,
+          46.5049293
+        ],
+        [
+          6.6911512,
+          46.5045138
+        ],
+        [
+          6.6908047,
+          46.5046736
+        ],
+        [
+          6.6907598,
+          46.504594
+        ],
+        [
+          6.690669,
+          46.504523
+        ],
+        [
+          6.6904804,
+          46.5047014
+        ],
+        [
+          6.6900486,
+          46.504938
+        ],
+        [
+          6.6897759,
+          46.5051035
+        ],
+        [
+          6.6896283,
+          46.5052699
+        ],
+        [
+          6.6901086,
+          46.5055795
+        ],
+        [
+          6.6899378,
+          46.5057142
+        ],
+        [
+          6.6892147,
+          46.5064709
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "relation/5954493",
+  "properties": {
+    "timestamp": "2021-04-21T20:52:28Z",
+    "version": "239",
+    "changeset": "103364066",
+    "user": "phaerrax",
+    "uid": "4890411",
+    "bicycle": "no",
+    "by_night": "only",
+    "dining": "yes",
+    "fixme": "Check if this route is still operational.",
+    "from": "Paris - Gare de Lyon",
+    "name": "Thello : Paris - Venise",
+    "name:fr": "Thello : Paris - Venise",
+    "name:it": "Thello : Parigi - Venezia",
+    "network": "Thello",
+    "operator": "Thello",
+    "public_transport:version": "1",
+    "reservation": "yes",
+    "route": "train",
+    "service": "international",
+    "sleeping": "yes",
+    "to": "Venezia - Santa Lucia",
+    "type": "route",
+    "wheelchair": "limited",
+    "id": "relation/5954493"
+  },
+  "geometry": {
+    "type": "MultiLineString",
+    "coordinates": [
+      [
+        [
+          6.6875348,
+          46.5052059
+        ],
+        [
+          6.6887678,
+          46.5046898
+        ],
+        [
+          6.689642,
+          46.5043023
+        ],
+        [
+          6.6903665,
+          46.5039775
+        ],
+        [
+          6.6912411,
+          46.5036598
+        ],
+        [
+          6.6928359,
+          46.503148
+        ]
+      ],
+      [
+        [
+          6.6928121,
+          46.5031143
+        ],
+        [
+          6.6912238,
+          46.5036329
+        ],
+        [
+          6.6903488,
+          46.5039546
+        ],
+        [
+          6.6885423,
+          46.5047401
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "relation/7796311",
+  "properties": {
+    "timestamp": "2021-03-30T21:10:38Z",
+    "version": "35",
+    "changeset": "102009639",
+    "user": "eginhard",
+    "uid": "12637224",
+    "from": "Genève-Aéroport",
+    "name": "IR 90: Genève-Aéroport => Brig",
+    "network": "ch-direct",
+    "operator": "SBB",
+    "public_transport:version": "2",
+    "ref": "IR 90",
+    "route": "train",
+    "to": "Brig",
+    "type": "route",
+    "id": "relation/7796311"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6875348,
+        46.5052059
+      ],
+      [
+        6.6887678,
+        46.5046898
+      ],
+      [
+        6.689642,
+        46.5043023
+      ],
+      [
+        6.6903665,
+        46.5039775
+      ],
+      [
+        6.6912411,
+        46.5036598
+      ],
+      [
+        6.6928359,
+        46.503148
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "relation/7796312",
+  "properties": {
+    "timestamp": "2021-03-30T21:10:38Z",
+    "version": "33",
+    "changeset": "102009639",
+    "user": "eginhard",
+    "uid": "12637224",
+    "from": "Brig",
+    "name": "IR 90: Brig => Genève-Aéroport",
+    "network": "ch-direct",
+    "operator": "SBB",
+    "public_transport:version": "2",
+    "ref": "IR 90",
+    "route": "train",
+    "to": "Genève-Aéroport",
+    "type": "route",
+    "id": "relation/7796312"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6928121,
+        46.5031143
+      ],
+      [
+        6.6912238,
+        46.5036329
+      ],
+      [
+        6.6903488,
+        46.5039546
+      ],
+      [
+        6.6885423,
+        46.5047401
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "relation/7817998",
+  "properties": {
+    "timestamp": "2021-04-16T23:33:55Z",
+    "version": "15",
+    "changeset": "103084069",
+    "user": "Michmat504",
+    "uid": "12578665",
+    "from": "Aigle",
+    "name": "S2: Aigle => Vallorbe",
+    "network": "RER Vaud",
+    "network:wikidata": "Q2394222",
+    "note": "Laufweg Prilly-Malley (Gleis 3 statt 1) > Renens aufgrund Bau der Überwerfung bis vsl. Dezember 2021 verändert",
+    "operator": "SBB CFF FFS",
+    "public_transport:version": "2",
+    "ref": "S2",
+    "route": "train",
+    "to": "Vallorbe",
+    "type": "route",
+    "via": "Lausanne",
+    "id": "relation/7817998"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6928121,
+        46.5031143
+      ],
+      [
+        6.6912238,
+        46.5036329
+      ],
+      [
+        6.6903488,
+        46.5039546
+      ],
+      [
+        6.6885423,
+        46.5047401
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "relation/7818747",
+  "properties": {
+    "timestamp": "2021-03-08T17:07:47Z",
+    "version": "13",
+    "changeset": "100652429",
+    "user": "Halbtax",
+    "uid": "4671660",
+    "from": "Allaman",
+    "name": "S3: Allaman => Villeneuve",
+    "network": "Mobilis",
+    "network:wikidata": "Q2394222",
+    "note": "Laufweg zwischen Lausanne und Renens aufgrund Bau der Überwerfung bis vsl. Dezember 2021 verändert",
+    "operator": "SBB",
+    "public_transport:version": "2",
+    "ref": "S3",
+    "route": "train",
+    "to": "Villeneuve",
+    "type": "route",
+    "via": "Lausanne",
+    "id": "relation/7818747"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6875348,
+        46.5052059
+      ],
+      [
+        6.6887678,
+        46.5046898
+      ],
+      [
+        6.689642,
+        46.5043023
+      ],
+      [
+        6.6903665,
+        46.5039775
+      ],
+      [
+        6.6912411,
+        46.5036598
+      ],
+      [
+        6.6928359,
+        46.503148
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "relation/11624800",
+  "properties": {
+    "timestamp": "2020-09-14T20:25:57Z",
+    "version": "2",
+    "changeset": "90884809",
+    "user": "rbuffat",
+    "uid": "9560206",
+    "name": "Châtelard - Lutry",
+    "network": "lwn",
+    "osmc:symbol": "yellow::yellow_diamond",
+    "route": "hiking",
+    "symbol": "losange jaune",
+    "type": "route",
+    "id": "relation/11624800"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6903609,
+        46.5036998
+      ],
+      [
+        6.6905871,
+        46.5036044
+      ],
+      [
+        6.6907853,
+        46.503532
+      ],
+      [
+        6.6908566,
+        46.5035059
+      ],
+      [
+        6.6910426,
+        46.5034078
+      ],
+      [
+        6.6910983,
+        46.5034783
+      ],
+      [
+        6.6912679,
+        46.5037243
+      ],
+      [
+        6.6913355,
+        46.5037357
+      ],
+      [
+        6.6913669,
+        46.5038187
+      ],
+      [
+        6.6913946,
+        46.503989
+      ],
+      [
+        6.6914024,
+        46.5040692
+      ],
+      [
+        6.6916811,
+        46.5040139
+      ],
+      [
+        6.6919989,
+        46.5038562
+      ],
+      [
+        6.6922695,
+        46.5041274
+      ],
+      [
+        6.6929038,
+        46.503778
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "relation/11624818",
+  "properties": {
+    "timestamp": "2020-12-13T14:40:09Z",
+    "version": "7",
+    "changeset": "95757465",
+    "user": "pipolab",
+    "uid": "1816603",
+    "name": "Terasses de Lavaux",
+    "network": "rwn",
+    "osmc:symbol": "green:green::113:white",
+    "ref": "113",
+    "route": "hiking",
+    "type": "route",
+    "id": "relation/11624818"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6929038,
+        46.503778
+      ],
+      [
+        6.6922695,
+        46.5041274
+      ],
+      [
+        6.6919989,
+        46.5038562
+      ],
+      [
+        6.6916811,
+        46.5040139
+      ],
+      [
+        6.6914024,
+        46.5040692
+      ],
+      [
+        6.6913946,
+        46.503989
+      ],
+      [
+        6.6913669,
+        46.5038187
+      ],
+      [
+        6.6913355,
+        46.5037357
+      ],
+      [
+        6.6912679,
+        46.5037243
+      ],
+      [
+        6.6910983,
+        46.5034783
+      ],
+      [
+        6.6910426,
+        46.5034078
+      ],
+      [
+        6.6908566,
+        46.5035059
+      ],
+      [
+        6.6907853,
+        46.503532
+      ],
+      [
+        6.6905871,
+        46.5036044
+      ],
+      [
+        6.6903609,
+        46.5036998
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "relation/12246201",
+  "properties": {
+    "timestamp": "2021-03-30T21:10:38Z",
+    "version": "6",
+    "changeset": "102009639",
+    "user": "eginhard",
+    "uid": "12637224",
+    "from": "Milano Centrale",
+    "name": "EC: Milano Centrale => Genève",
+    "network": "ch-direct",
+    "operator": "SBB; Trenitalia",
+    "public_transport:version": "2",
+    "ref": "EC",
+    "route": "train",
+    "service": "high_speed",
+    "to": "Genève",
+    "type": "route",
+    "id": "relation/12246201"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6928121,
+        46.5031143
+      ],
+      [
+        6.6912238,
+        46.5036329
+      ],
+      [
+        6.6903488,
+        46.5039546
+      ],
+      [
+        6.6885423,
+        46.5047401
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "relation/12246281",
+  "properties": {
+    "timestamp": "2021-03-30T21:10:38Z",
+    "version": "4",
+    "changeset": "102009639",
+    "user": "eginhard",
+    "uid": "12637224",
+    "fixme": "Italian part missing",
+    "from": "Genève",
+    "name": "EC: Genève => Milano Centrale",
+    "network": "ch-direct",
+    "operator": "SBB; Trenitalia",
+    "public_transport:version": "2",
+    "ref": "EC",
+    "route": "train",
+    "service": "high_speed",
+    "to": "Milano Centrale",
+    "type": "route",
+    "id": "relation/12246281"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6875348,
+        46.5052059
+      ],
+      [
+        6.6887678,
+        46.5046898
+      ],
+      [
+        6.689642,
+        46.5043023
+      ],
+      [
+        6.6903665,
+        46.5039775
+      ],
+      [
+        6.6912411,
+        46.5036598
+      ],
+      [
+        6.6928359,
+        46.503148
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "relation/12466307",
+  "properties": {
+    "timestamp": "2021-03-26T15:42:28Z",
+    "version": "5",
+    "changeset": "101801765",
+    "user": "Habasch",
+    "uid": "1556082",
+    "colour": "#8F36C8",
+    "from": "Lutry, Croix/Lutry",
+    "name": "Bus 68: Croix/Lutry => Lutry, gare",
+    "nat_ref": "10.068",
+    "network": "Mobilis",
+    "operator": "TL",
+    "public_transport:version": "2",
+    "ref": "68",
+    "route": "bus",
+    "to": "Lutry, gare",
+    "type": "route",
+    "url": "http://www.t-l.ch/",
+    "id": "relation/12466307"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6903609,
+        46.5036998
+      ],
+      [
+        6.6905871,
+        46.5036044
+      ],
+      [
+        6.6907853,
+        46.503532
+      ],
+      [
+        6.6908566,
+        46.5035059
+      ],
+      [
+        6.6910426,
+        46.5034078
+      ],
+      [
+        6.691088,
+        46.5033839
+      ],
+      [
+        6.6907146,
+        46.5029541
+      ],
+      [
+        6.6905289,
+        46.5026935
+      ],
+      [
+        6.6904699,
+        46.5026107
+      ],
+      [
+        6.6903492,
+        46.5024002
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/42777412",
+  "properties": {
+    "timestamp": "2016-05-22T19:10:38Z",
+    "version": "4",
+    "changeset": "39493975",
+    "user": "eric6quatre",
+    "uid": "130849",
+    "area": "yes",
+    "public_transport": "platform",
+    "railway": "platform",
+    "ref": "1",
+    "id": "way/42777412"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6911399,
+          46.5036004
+        ],
+        [
+          6.691158,
+          46.5036288
+        ],
+        [
+          6.6907275,
+          46.5037845
+        ],
+        [
+          6.6901785,
+          46.5040006
+        ],
+        [
+          6.6898255,
+          46.5041518
+        ],
+        [
+          6.6893233,
+          46.5043751
+        ],
+        [
+          6.6892961,
+          46.5043446
+        ],
+        [
+          6.6901463,
+          46.5039589
+        ],
+        [
+          6.690172,
+          46.5039865
+        ],
+        [
+          6.6904499,
+          46.5038739
+        ],
+        [
+          6.6904432,
+          46.5038657
+        ],
+        [
+          6.6904825,
+          46.5038515
+        ],
+        [
+          6.6907126,
+          46.5037619
+        ],
+        [
+          6.6909761,
+          46.5036619
+        ],
+        [
+          6.6911399,
+          46.5036004
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/42777413",
+  "properties": {
+    "timestamp": "2016-05-22T19:10:38Z",
+    "version": "6",
+    "changeset": "39493975",
+    "user": "eric6quatre",
+    "uid": "130849",
+    "area": "yes",
+    "public_transport": "platform",
+    "railway": "platform",
+    "ref": "2",
+    "id": "way/42777413"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6894488,
+          46.50446
+        ],
+        [
+          6.6894365,
+          46.5044472
+        ],
+        [
+          6.6894144,
+          46.5044242
+        ],
+        [
+          6.690553,
+          46.5039314
+        ],
+        [
+          6.6909698,
+          46.5037779
+        ],
+        [
+          6.6909922,
+          46.5038101
+        ],
+        [
+          6.6905795,
+          46.5039626
+        ],
+        [
+          6.6894488,
+          46.50446
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/42777418",
+  "properties": {
+    "timestamp": "2018-06-01T08:00:15Z",
+    "version": "4",
+    "changeset": "59452844",
+    "user": "pherjung",
+    "uid": "1960557",
+    "access": "yes",
+    "amenity": "parking",
+    "fee": "yes",
+    "operator": "CFF",
+    "parking": "surface",
+    "park_ride": "yes",
+    "surface": "asphalt",
+    "id": "way/42777418"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6894375,
+          46.5042728
+        ],
+        [
+          6.689343,
+          46.5041719
+        ],
+        [
+          6.690064,
+          46.5038452
+        ],
+        [
+          6.690145,
+          46.5039536
+        ],
+        [
+          6.6894375,
+          46.5042728
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/89313053",
+  "properties": {
+    "timestamp": "2011-05-07T12:05:32Z",
+    "version": "2",
+    "changeset": "8072781",
+    "user": "Stéphane Brunner",
+    "uid": "17835",
+    "addr:city": "Lutry",
+    "addr:country": "CH",
+    "addr:housenumber": "8",
+    "addr:postcode": "1095",
+    "addr:street": "Avenue de la Gare",
+    "building": "yes",
+    "source": "OrthoPhoto PULLY swisstopo Level 2",
+    "id": "way/89313053"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6885662,
+          46.5041824
+        ],
+        [
+          6.6884536,
+          46.5040862
+        ],
+        [
+          6.6887025,
+          46.5039472
+        ],
+        [
+          6.6888152,
+          46.5040435
+        ],
+        [
+          6.6885662,
+          46.5041824
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/89313067",
+  "properties": {
+    "timestamp": "2011-05-07T12:05:50Z",
+    "version": "2",
+    "changeset": "8072781",
+    "user": "Stéphane Brunner",
+    "uid": "17835",
+    "addr:city": "Lutry",
+    "addr:country": "CH",
+    "addr:housenumber": "16",
+    "addr:postcode": "1095",
+    "addr:street": "Chemin de la Culturaz",
+    "building": "yes",
+    "source": "OrthoPhoto PULLY swisstopo Level 2",
+    "id": "way/89313067"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6886172,
+          46.5035558
+        ],
+        [
+          6.6887428,
+          46.5034797
+        ],
+        [
+          6.6888319,
+          46.5035498
+        ],
+        [
+          6.688817,
+          46.5035588
+        ],
+        [
+          6.6888465,
+          46.5035821
+        ],
+        [
+          6.688791,
+          46.5036157
+        ],
+        [
+          6.6887654,
+          46.5035957
+        ],
+        [
+          6.6887103,
+          46.503629
+        ],
+        [
+          6.6886172,
+          46.5035558
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/89313092",
+  "properties": {
+    "timestamp": "2011-05-07T12:05:44Z",
+    "version": "2",
+    "changeset": "8072781",
+    "user": "Stéphane Brunner",
+    "uid": "17835",
+    "addr:city": "Lutry",
+    "addr:country": "CH",
+    "addr:housenumber": "22",
+    "addr:postcode": "1095",
+    "addr:street": "Chemin de la Culturaz",
+    "building": "yes",
+    "source": "OrthoPhoto PULLY swisstopo Level 2",
+    "id": "way/89313092"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6893965,
+          46.5032442
+        ],
+        [
+          6.6891867,
+          46.5033419
+        ],
+        [
+          6.6890581,
+          46.5032102
+        ],
+        [
+          6.6892679,
+          46.5031125
+        ],
+        [
+          6.6893965,
+          46.5032442
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/89313100",
+  "properties": {
+    "timestamp": "2011-05-07T12:06:14Z",
+    "version": "4",
+    "changeset": "8072781",
+    "user": "Stéphane Brunner",
+    "uid": "17835",
+    "addr:city": "Lutry",
+    "addr:country": "CH",
+    "addr:housenumber": "18",
+    "addr:postcode": "1095",
+    "addr:street": "Avenue de la Gare",
+    "building": "yes",
+    "source": "Orthophoto swisstopo Level2",
+    "id": "way/89313100"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.68964,
+          46.5039291
+        ],
+        [
+          6.6895862,
+          46.5039528
+        ],
+        [
+          6.6896149,
+          46.5039839
+        ],
+        [
+          6.6894852,
+          46.504041
+        ],
+        [
+          6.6893645,
+          46.5039104
+        ],
+        [
+          6.6894556,
+          46.5038702
+        ],
+        [
+          6.6894826,
+          46.5038994
+        ],
+        [
+          6.689575,
+          46.5038587
+        ],
+        [
+          6.68964,
+          46.5039291
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/89313108",
+  "properties": {
+    "timestamp": "2011-05-07T12:05:50Z",
+    "version": "4",
+    "changeset": "8072781",
+    "user": "Stéphane Brunner",
+    "uid": "17835",
+    "addr:city": "Lutry",
+    "addr:country": "CH",
+    "addr:housenumber": "25",
+    "addr:postcode": "1095",
+    "addr:street": "Avenue de la Gare",
+    "building": "yes",
+    "source": "Orthophoto swisstopo Level2",
+    "id": "way/89313108"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6905217,
+          46.5038246
+        ],
+        [
+          6.6904658,
+          46.5037539
+        ],
+        [
+          6.6906374,
+          46.5036891
+        ],
+        [
+          6.6906933,
+          46.5037599
+        ],
+        [
+          6.6905217,
+          46.5038246
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/89313113",
+  "properties": {
+    "timestamp": "2011-05-07T12:05:45Z",
+    "version": "3",
+    "changeset": "8072781",
+    "user": "Stéphane Brunner",
+    "uid": "17835",
+    "addr:city": "Lutry",
+    "addr:country": "CH",
+    "addr:housenumber": "24",
+    "addr:postcode": "1095",
+    "addr:street": "Chemin de la Culturaz",
+    "building": "yes",
+    "source": "OrthoPhoto PULLY swisstopo Level 2",
+    "id": "way/89313113"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6893182,
+          46.5037222
+        ],
+        [
+          6.6892754,
+          46.5036794
+        ],
+        [
+          6.6892951,
+          46.5036701
+        ],
+        [
+          6.6892107,
+          46.5035857
+        ],
+        [
+          6.6894976,
+          46.5034489
+        ],
+        [
+          6.6895696,
+          46.5035208
+        ],
+        [
+          6.6895924,
+          46.50351
+        ],
+        [
+          6.6896475,
+          46.5035651
+        ],
+        [
+          6.6893182,
+          46.5037222
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/89313141",
+  "properties": {
+    "timestamp": "2011-03-04T20:48:46Z",
+    "version": "2",
+    "changeset": "7457906",
+    "user": "Stéphane Brunner",
+    "uid": "17835",
+    "addr:city": "Lutry",
+    "addr:country": "CH",
+    "addr:postcode": "1095",
+    "building": "yes",
+    "source": "Orthophoto swisstopo Level2",
+    "id": "way/89313141"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6908185,
+          46.503703
+        ],
+        [
+          6.6907738,
+          46.5036486
+        ],
+        [
+          6.6908853,
+          46.5036049
+        ],
+        [
+          6.69093,
+          46.5036593
+        ],
+        [
+          6.6908185,
+          46.503703
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/89313147",
+  "properties": {
+    "timestamp": "2011-05-07T12:06:21Z",
+    "version": "3",
+    "changeset": "8072781",
+    "user": "Stéphane Brunner",
+    "uid": "17835",
+    "addr:city": "Lutry",
+    "addr:country": "CH",
+    "addr:housenumber": "10",
+    "addr:postcode": "1095",
+    "addr:street": "Avenue de la Gare",
+    "building": "yes",
+    "source": "OrthoPhoto PULLY swisstopo Level 2",
+    "id": "way/89313147"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6889079,
+          46.5039341
+        ],
+        [
+          6.6887953,
+          46.5038379
+        ],
+        [
+          6.6890443,
+          46.503699
+        ],
+        [
+          6.6891569,
+          46.5037952
+        ],
+        [
+          6.6889079,
+          46.5039341
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/89313159",
+  "properties": {
+    "timestamp": "2011-05-07T12:05:37Z",
+    "version": "3",
+    "changeset": "8072781",
+    "user": "Stéphane Brunner",
+    "uid": "17835",
+    "addr:city": "Lutry",
+    "addr:country": "CH",
+    "addr:housenumber": "48",
+    "addr:postcode": "1095",
+    "addr:street": "Chemin de la Culturaz",
+    "building": "yes",
+    "source": "OrthoPhoto PULLY swisstopo Level 2",
+    "id": "way/89313159"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6907337,
+          46.5032609
+        ],
+        [
+          6.6904434,
+          46.5033653
+        ],
+        [
+          6.6903852,
+          46.5032881
+        ],
+        [
+          6.6906754,
+          46.5031837
+        ],
+        [
+          6.6907337,
+          46.5032609
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/89313181",
+  "properties": {
+    "timestamp": "2010-12-12T18:43:12Z",
+    "version": "1",
+    "changeset": "6640037",
+    "user": "Stéphane Brunner",
+    "uid": "17835",
+    "addr:city": "Lutry",
+    "addr:country": "CH",
+    "building": "yes",
+    "source": "Orthophoto swisstopo Level2",
+    "id": "way/89313181"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6909796,
+          46.503648
+        ],
+        [
+          6.6909466,
+          46.5036092
+        ],
+        [
+          6.6910711,
+          46.503559
+        ],
+        [
+          6.6911042,
+          46.5035978
+        ],
+        [
+          6.6909796,
+          46.503648
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/89313183",
+  "properties": {
+    "timestamp": "2011-05-07T12:06:14Z",
+    "version": "3",
+    "changeset": "8072781",
+    "user": "Stéphane Brunner",
+    "uid": "17835",
+    "addr:city": "Lutry",
+    "addr:country": "CH",
+    "addr:housenumber": "20",
+    "addr:postcode": "1095",
+    "addr:street": "Avenue de la Gare",
+    "building": "yes",
+    "source": "OrthoPhoto PULLY swisstopo Level 2",
+    "id": "way/89313183"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6901788,
+          46.5039855
+        ],
+        [
+          6.6901252,
+          46.5039226
+        ],
+        [
+          6.6903875,
+          46.5038167
+        ],
+        [
+          6.6904411,
+          46.5038796
+        ],
+        [
+          6.6901788,
+          46.5039855
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/89313189",
+  "properties": {
+    "timestamp": "2011-05-07T12:06:29Z",
+    "version": "2",
+    "changeset": "8072781",
+    "user": "Stéphane Brunner",
+    "uid": "17835",
+    "addr:city": "Lutry",
+    "addr:country": "CH",
+    "addr:housenumber": "24",
+    "addr:postcode": "1095",
+    "addr:street": "Chemin de la Culturaz",
+    "building": "yes",
+    "source": "OrthoPhoto PULLY swisstopo Level 2",
+    "id": "way/89313189"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6897753,
+          46.5034948
+        ],
+        [
+          6.6897325,
+          46.503452
+        ],
+        [
+          6.6897521,
+          46.5034427
+        ],
+        [
+          6.6896678,
+          46.5033583
+        ],
+        [
+          6.6899547,
+          46.5032215
+        ],
+        [
+          6.6900267,
+          46.5032935
+        ],
+        [
+          6.6900495,
+          46.5032826
+        ],
+        [
+          6.6901046,
+          46.5033377
+        ],
+        [
+          6.6897753,
+          46.5034948
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/102714029",
+  "properties": {
+    "timestamp": "2011-06-06T00:48:14Z",
+    "version": "2",
+    "changeset": "8355621",
+    "user": "eric6quatre",
+    "uid": "130849",
+    "addr:city": "Lutry",
+    "addr:country": "CH",
+    "addr:housenumber": "63",
+    "addr:postcode": "1095",
+    "addr:street": "Route de Savuit",
+    "building": "yes",
+    "source": "Orthophoto swisstopo Level2",
+    "id": "way/102714029"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6916333,
+          46.5043458
+        ],
+        [
+          6.6915811,
+          46.5042822
+        ],
+        [
+          6.6915366,
+          46.5042996
+        ],
+        [
+          6.6915022,
+          46.5042576
+        ],
+        [
+          6.6915686,
+          46.5042316
+        ],
+        [
+          6.6915989,
+          46.5042686
+        ],
+        [
+          6.6916774,
+          46.5042379
+        ],
+        [
+          6.6917338,
+          46.5043066
+        ],
+        [
+          6.6916333,
+          46.5043458
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/102714056",
+  "properties": {
+    "timestamp": "2011-03-04T20:03:36Z",
+    "version": "1",
+    "changeset": "7457514",
+    "user": "Stéphane Brunner",
+    "uid": "17835",
+    "building": "yes",
+    "source": "Orthophoto swisstopo Level2",
+    "id": "way/102714056"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6900206,
+          46.5044413
+        ],
+        [
+          6.6899839,
+          46.5043993
+        ],
+        [
+          6.6900399,
+          46.504376
+        ],
+        [
+          6.6900766,
+          46.504418
+        ],
+        [
+          6.6900206,
+          46.5044413
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/102714086",
+  "properties": {
+    "timestamp": "2011-06-06T00:48:15Z",
+    "version": "2",
+    "changeset": "8355621",
+    "user": "eric6quatre",
+    "uid": "130849",
+    "addr:city": "Lutry",
+    "addr:country": "CH",
+    "addr:housenumber": "23",
+    "addr:postcode": "1095",
+    "addr:street": "Route de Sermotier",
+    "building": "yes",
+    "source": "Orthophoto swisstopo Level2",
+    "id": "way/102714086"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.69024,
+          46.5043488
+        ],
+        [
+          6.6901673,
+          46.5042692
+        ],
+        [
+          6.6903375,
+          46.5041951
+        ],
+        [
+          6.6904102,
+          46.5042748
+        ],
+        [
+          6.69024,
+          46.5043488
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/102714092",
+  "properties": {
+    "timestamp": "2011-06-06T00:48:15Z",
+    "version": "2",
+    "changeset": "8355621",
+    "user": "eric6quatre",
+    "uid": "130849",
+    "addr:city": "Lutry",
+    "addr:country": "CH",
+    "addr:housenumber": "22",
+    "addr:postcode": "1095",
+    "addr:street": "Route de Sermotier",
+    "building": "yes",
+    "source": "Orthophoto swisstopo Level2",
+    "id": "way/102714092"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6903815,
+          46.5046477
+        ],
+        [
+          6.6902816,
+          46.504537
+        ],
+        [
+          6.6904844,
+          46.5044498
+        ],
+        [
+          6.6905557,
+          46.5045288
+        ],
+        [
+          6.6904682,
+          46.5045665
+        ],
+        [
+          6.6904864,
+          46.5045866
+        ],
+        [
+          6.6904364,
+          46.5046081
+        ],
+        [
+          6.6904468,
+          46.5046196
+        ],
+        [
+          6.6903815,
+          46.5046477
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/102714121",
+  "properties": {
+    "timestamp": "2011-06-06T00:48:16Z",
+    "version": "2",
+    "changeset": "8355621",
+    "user": "eric6quatre",
+    "uid": "130849",
+    "addr:city": "Lutry",
+    "addr:country": "CH",
+    "addr:housenumber": "57",
+    "addr:postcode": "1095",
+    "addr:street": "Route de Savuit",
+    "building": "yes",
+    "source": "Orthophoto swisstopo Level2",
+    "id": "way/102714121"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6919299,
+          46.5042053
+        ],
+        [
+          6.6918515,
+          46.504111
+        ],
+        [
+          6.6920029,
+          46.5040509
+        ],
+        [
+          6.6920814,
+          46.5041452
+        ],
+        [
+          6.6919299,
+          46.5042053
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/102714156",
+  "properties": {
+    "timestamp": "2011-06-06T00:48:16Z",
+    "version": "2",
+    "changeset": "8355621",
+    "user": "eric6quatre",
+    "uid": "130849",
+    "addr:city": "Lutry",
+    "addr:country": "CH",
+    "addr:housenumber": "67",
+    "addr:postcode": "1095",
+    "addr:street": "Route de Savuit",
+    "building": "yes",
+    "source": "Orthophoto swisstopo Level2",
+    "id": "way/102714156"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6918941,
+          46.5044799
+        ],
+        [
+          6.6918295,
+          46.5044009
+        ],
+        [
+          6.6919622,
+          46.5043491
+        ],
+        [
+          6.6920158,
+          46.5044146
+        ],
+        [
+          6.6919232,
+          46.5044507
+        ],
+        [
+          6.6919343,
+          46.5044643
+        ],
+        [
+          6.6918941,
+          46.5044799
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/102714171",
+  "properties": {
+    "timestamp": "2011-06-06T00:48:18Z",
+    "version": "2",
+    "changeset": "8355621",
+    "user": "eric6quatre",
+    "uid": "130849",
+    "addr:city": "Lutry",
+    "addr:country": "CH",
+    "addr:housenumber": "27",
+    "addr:postcode": "1095",
+    "addr:street": "Route de Sermotier",
+    "building": "yes",
+    "source": "Orthophoto swisstopo Level2",
+    "id": "way/102714171"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6905575,
+          46.5042232
+        ],
+        [
+          6.6904939,
+          46.5041444
+        ],
+        [
+          6.6906229,
+          46.5040947
+        ],
+        [
+          6.6906865,
+          46.5041735
+        ],
+        [
+          6.6905575,
+          46.5042232
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/102714274",
+  "properties": {
+    "timestamp": "2011-06-06T00:48:17Z",
+    "version": "2",
+    "changeset": "8355621",
+    "user": "eric6quatre",
+    "uid": "130849",
+    "addr:city": "Lutry",
+    "addr:country": "CH",
+    "addr:housenumber": "62",
+    "addr:postcode": "1095",
+    "addr:street": "Route de Savuit",
+    "building": "yes",
+    "source": "Orthophoto swisstopo Level2",
+    "id": "way/102714274"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6909679,
+          46.5045141
+        ],
+        [
+          6.6908719,
+          46.5044063
+        ],
+        [
+          6.6911923,
+          46.5042703
+        ],
+        [
+          6.6912883,
+          46.5043781
+        ],
+        [
+          6.6909679,
+          46.5045141
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/102821594",
+  "properties": {
+    "timestamp": "2011-05-07T12:05:34Z",
+    "version": "2",
+    "changeset": "8072781",
+    "user": "Stéphane Brunner",
+    "uid": "17835",
+    "addr:city": "Lutry",
+    "addr:country": "CH",
+    "addr:housenumber": "24",
+    "addr:postcode": "1095",
+    "addr:street": "Avenue de la Gare",
+    "building": "yes",
+    "source": "Orthophoto swisstopo Level2",
+    "id": "way/102821594"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6901815,
+          46.5037023
+        ],
+        [
+          6.6901253,
+          46.5036416
+        ],
+        [
+          6.6902188,
+          46.5036004
+        ],
+        [
+          6.6901834,
+          46.503562
+        ],
+        [
+          6.6902836,
+          46.5035179
+        ],
+        [
+          6.6903489,
+          46.5035885
+        ],
+        [
+          6.6904184,
+          46.5035579
+        ],
+        [
+          6.6904711,
+          46.5036149
+        ],
+        [
+          6.6902677,
+          46.5037045
+        ],
+        [
+          6.6902413,
+          46.503676
+        ],
+        [
+          6.6901815,
+          46.5037023
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/102821596",
+  "properties": {
+    "timestamp": "2011-05-07T12:06:30Z",
+    "version": "2",
+    "changeset": "8072781",
+    "user": "Stéphane Brunner",
+    "uid": "17835",
+    "addr:city": "Lutry",
+    "addr:country": "CH",
+    "addr:housenumber": "20",
+    "addr:postcode": "1095",
+    "addr:street": "Avenue de la Gare",
+    "building": "yes",
+    "source": "Orthophoto swisstopo Level2",
+    "id": "way/102821596"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6899329,
+          46.5038404
+        ],
+        [
+          6.6897359,
+          46.5039272
+        ],
+        [
+          6.6897094,
+          46.5038986
+        ],
+        [
+          6.68964,
+          46.5039291
+        ],
+        [
+          6.689575,
+          46.5038587
+        ],
+        [
+          6.6896765,
+          46.503814
+        ],
+        [
+          6.6896476,
+          46.5037828
+        ],
+        [
+          6.689741,
+          46.5037416
+        ],
+        [
+          6.6898088,
+          46.5038151
+        ],
+        [
+          6.6898804,
+          46.5037835
+        ],
+        [
+          6.6899329,
+          46.5038404
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/102821598",
+  "properties": {
+    "timestamp": "2018-06-01T08:00:15Z",
+    "version": "3",
+    "changeset": "59452844",
+    "user": "pherjung",
+    "uid": "1960557",
+    "access": "yes",
+    "amenity": "parking",
+    "capacity": "14",
+    "fee": "yes",
+    "parking": "surface",
+    "park_ride": "yes",
+    "id": "way/102821598"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6904495,
+          46.5036866
+        ],
+        [
+          6.6908499,
+          46.5035322
+        ],
+        [
+          6.6908812,
+          46.5035709
+        ],
+        [
+          6.6904808,
+          46.5037254
+        ],
+        [
+          6.6904495,
+          46.5036866
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/102821617",
+  "properties": {
+    "timestamp": "2011-05-07T12:05:38Z",
+    "version": "2",
+    "changeset": "8072781",
+    "user": "Stéphane Brunner",
+    "uid": "17835",
+    "addr:city": "Lutry",
+    "addr:country": "CH",
+    "addr:housenumber": "22",
+    "addr:postcode": "1095",
+    "addr:street": "Avenue de la Gare",
+    "building": "yes",
+    "source": "Orthophoto swisstopo Level2",
+    "id": "way/102821617"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6901815,
+          46.5037023
+        ],
+        [
+          6.6901144,
+          46.5037319
+        ],
+        [
+          6.6901331,
+          46.5037522
+        ],
+        [
+          6.6899329,
+          46.5038404
+        ],
+        [
+          6.6898804,
+          46.5037835
+        ],
+        [
+          6.689952,
+          46.503752
+        ],
+        [
+          6.6898859,
+          46.5036805
+        ],
+        [
+          6.6899898,
+          46.5036348
+        ],
+        [
+          6.6900171,
+          46.5036643
+        ],
+        [
+          6.690109,
+          46.5036239
+        ],
+        [
+          6.6901253,
+          46.5036416
+        ],
+        [
+          6.6901815,
+          46.5037023
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/112167132",
+  "properties": {
+    "timestamp": "2011-05-07T12:05:13Z",
+    "version": "1",
+    "changeset": "8072781",
+    "user": "Stéphane Brunner",
+    "uid": "17835",
+    "addr:city": "Lutry",
+    "addr:country": "CH",
+    "addr:housenumber": "50",
+    "addr:postcode": "1095",
+    "addr:street": "Chemin de la Culturaz",
+    "building": "yes",
+    "source": "OrthoPhoto PULLY swisstopo Level 2",
+    "id": "way/112167132"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6904434,
+          46.5033653
+        ],
+        [
+          6.6907337,
+          46.5032609
+        ],
+        [
+          6.690778,
+          46.5033197
+        ],
+        [
+          6.6904878,
+          46.5034241
+        ],
+        [
+          6.6904434,
+          46.5033653
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/843374583",
+  "properties": {
+    "timestamp": "2020-09-02T05:23:53Z",
+    "version": "1",
+    "changeset": "90277015",
+    "user": "eric6quatre",
+    "uid": "130849",
+    "addr:city": "Lutry",
+    "addr:housenumber": "35",
+    "addr:postcode": "1095",
+    "addr:street": "Route de Sermotier",
+    "building": "house",
+    "id": "way/843374583"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6909456,
+          46.5040768
+        ],
+        [
+          6.6908736,
+          46.5039961
+        ],
+        [
+          6.6911687,
+          46.5038714
+        ],
+        [
+          6.6912406,
+          46.5039521
+        ],
+        [
+          6.6909456,
+          46.5040768
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/24477020",
+  "properties": {
+    "timestamp": "2018-05-02T06:34:16Z",
+    "version": "9",
+    "changeset": "58604086",
+    "user": "Penegal",
+    "uid": "2815659",
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Route de Savuit",
+    "id": "way/24477020"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6913946,
+        46.503989
+      ],
+      [
+        6.6913669,
+        46.5038187
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/24478808",
+  "properties": {
+    "timestamp": "2018-06-01T08:00:10Z",
+    "version": "7",
+    "changeset": "59452837",
+    "user": "pherjung",
+    "uid": "1960557",
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Route de Savuit",
+    "surface": "asphalt",
+    "id": "way/24478808"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.691088,
+        46.5033839
+      ],
+      [
+        6.6907146,
+        46.5029541
+      ],
+      [
+        6.6905289,
+        46.5026935
+      ],
+      [
+        6.6904699,
+        46.5026107
+      ],
+      [
+        6.6903492,
+        46.5024002
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/24478809",
+  "properties": {
+    "timestamp": "2018-08-24T23:07:27Z",
+    "version": "9",
+    "changeset": "61973448",
+    "user": "gdiscry",
+    "uid": "8339330",
+    "highway": "residential",
+    "maxspeed": "50",
+    "maxspeed:type": "sign",
+    "name": "Avenue de la Gare",
+    "surface": "asphalt",
+    "id": "way/24478809"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6903609,
+        46.5036998
+      ],
+      [
+        6.6905871,
+        46.5036044
+      ],
+      [
+        6.6907853,
+        46.503532
+      ],
+      [
+        6.6908566,
+        46.5035059
+      ],
+      [
+        6.6910426,
+        46.5034078
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/24478810",
+  "properties": {
+    "timestamp": "2021-03-21T02:47:37Z",
+    "version": "11",
+    "changeset": "101424288",
+    "user": "eric6quatre",
+    "uid": "130849",
+    "access": "no",
+    "check_date": "2020",
+    "construction": "residential",
+    "highway": "construction",
+    "name": "Chemin de Bertholod",
+    "note": "Travaux dans tunnel ferroviaire de Bertholod",
+    "opening_date": "2021-06",
+    "id": "way/24478810"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6914632,
+        46.5037942
+      ],
+      [
+        6.6916621,
+        46.5035072
+      ],
+      [
+        6.6918302,
+        46.5033135
+      ],
+      [
+        6.6919929,
+        46.5031951
+      ],
+      [
+        6.6922401,
+        46.5031121
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/24523756",
+  "properties": {
+    "timestamp": "2018-11-15T15:37:12Z",
+    "version": "11",
+    "changeset": "64534139",
+    "user": "flierfy",
+    "uid": "445671",
+    "electrified": "contact_line",
+    "frequency": "16.7",
+    "gauge": "1435",
+    "layer": "-1",
+    "maxspeed": "130",
+    "operator": "SBB",
+    "passenger_lines": "2",
+    "railway": "rail",
+    "railway:etcs": "2",
+    "railway:track_ref": "203",
+    "tunnel": "yes",
+    "tunnel:name": "Tunnel du Carroz",
+    "usage": "main",
+    "voltage": "15000",
+    "id": "way/24523756"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6928121,
+        46.5031143
+      ],
+      [
+        6.6912238,
+        46.5036329
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/24775384",
+  "properties": {
+    "timestamp": "2020-09-14T20:25:57Z",
+    "version": "11",
+    "changeset": "90884809",
+    "user": "rbuffat",
+    "uid": "9560206",
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Route de Savuit",
+    "oneway": "yes",
+    "id": "way/24775384"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6913946,
+        46.503989
+      ],
+      [
+        6.6914024,
+        46.5040692
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/35420826",
+  "properties": {
+    "timestamp": "2018-05-02T06:34:18Z",
+    "version": "2",
+    "changeset": "58604086",
+    "user": "Penegal",
+    "uid": "2815659",
+    "highway": "steps",
+    "incline": "up",
+    "id": "way/35420826"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6913669,
+        46.5038187
+      ],
+      [
+        6.6914632,
+        46.5037942
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/42777415",
+  "properties": {
+    "timestamp": "2009-10-18T19:51:29Z",
+    "version": "1",
+    "changeset": "2887555",
+    "user": "Stéphane Brunner",
+    "uid": "17835",
+    "highway": "path",
+    "id": "way/42777415"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6903609,
+        46.5036998
+      ],
+      [
+        6.6904825,
+        46.5038515
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/42777416",
+  "properties": {
+    "timestamp": "2009-10-18T19:51:29Z",
+    "version": "1",
+    "changeset": "2887555",
+    "user": "Stéphane Brunner",
+    "uid": "17835",
+    "highway": "path",
+    "id": "way/42777416"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6905871,
+        46.5036044
+      ],
+      [
+        6.6907126,
+        46.5037619
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/42777417",
+  "properties": {
+    "timestamp": "2009-10-18T19:51:29Z",
+    "version": "1",
+    "changeset": "2887555",
+    "user": "Stéphane Brunner",
+    "uid": "17835",
+    "highway": "path",
+    "id": "way/42777417"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6908566,
+        46.5035059
+      ],
+      [
+        6.6909761,
+        46.5036619
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/88949552",
+  "properties": {
+    "timestamp": "2016-07-16T18:55:58Z",
+    "version": "3",
+    "changeset": "40785524",
+    "user": "eric6quatre",
+    "uid": "130849",
+    "highway": "footway",
+    "id": "way/88949552"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.688679,
+        46.5048853
+      ],
+      [
+        6.6886721,
+        46.5048615
+      ],
+      [
+        6.6886733,
+        46.5048395
+      ],
+      [
+        6.6886999,
+        46.5048025
+      ],
+      [
+        6.6889628,
+        46.5046784
+      ],
+      [
+        6.6894365,
+        46.5044472
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/88949573",
+  "properties": {
+    "timestamp": "2018-11-15T20:37:51Z",
+    "version": "11",
+    "changeset": "64543937",
+    "user": "flierfy",
+    "uid": "445671",
+    "electrified": "contact_line",
+    "frequency": "16.7",
+    "gauge": "1435",
+    "maxspeed": "130",
+    "operator": "SBB",
+    "passenger_lines": "2",
+    "railway": "rail",
+    "railway:etcs": "2",
+    "railway:track_ref": "2",
+    "tracks": "1",
+    "usage": "main",
+    "voltage": "15000",
+    "id": "way/88949573"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.689642,
+        46.5043023
+      ],
+      [
+        6.6903665,
+        46.5039775
+      ],
+      [
+        6.6912411,
+        46.5036598
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/89339065",
+  "properties": {
+    "timestamp": "2018-11-15T20:37:51Z",
+    "version": "10",
+    "changeset": "64543937",
+    "user": "flierfy",
+    "uid": "445671",
+    "electrified": "contact_line",
+    "frequency": "16.7",
+    "gauge": "1435",
+    "layer": "-1",
+    "maxspeed": "130",
+    "operator": "SBB",
+    "passenger_lines": "2",
+    "railway": "rail",
+    "railway:etcs": "2",
+    "railway:track_ref": "103",
+    "tunnel": "yes",
+    "tunnel:name": "Tunnel du Carroz",
+    "usage": "main",
+    "voltage": "15000",
+    "id": "way/89339065"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6912411,
+        46.5036598
+      ],
+      [
+        6.6928359,
+        46.503148
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/260890016",
+  "properties": {
+    "timestamp": "2017-04-18T08:13:18Z",
+    "version": "4",
+    "changeset": "47896994",
+    "user": "Nzara",
+    "uid": "481380",
+    "electrified": "contact_line",
+    "frequency": "16.7",
+    "gauge": "1435",
+    "operator": "SBB",
+    "railway": "rail",
+    "railway:etcs": "2",
+    "service": "siding",
+    "tracks": "1",
+    "voltage": "15000",
+    "id": "way/260890016"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.689642,
+        46.5043023
+      ],
+      [
+        6.6893102,
+        46.5044406
+      ],
+      [
+        6.6888886,
+        46.5045991
+      ],
+      [
+        6.6885423,
+        46.5047401
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/274268035",
+  "properties": {
+    "timestamp": "2018-11-15T20:38:13Z",
+    "version": "4",
+    "changeset": "64543937",
+    "user": "flierfy",
+    "uid": "445671",
+    "electrified": "contact_line",
+    "frequency": "16.7",
+    "gauge": "1435",
+    "maxspeed": "130",
+    "operator": "SBB",
+    "passenger_lines": "2",
+    "railway": "rail",
+    "railway:etcs": "2",
+    "tracks": "1",
+    "usage": "main",
+    "voltage": "15000",
+    "id": "way/274268035"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6875348,
+        46.5052059
+      ],
+      [
+        6.6887678,
+        46.5046898
+      ],
+      [
+        6.689642,
+        46.5043023
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/274268037",
+  "properties": {
+    "timestamp": "2018-11-15T15:37:41Z",
+    "version": "5",
+    "changeset": "64534139",
+    "user": "flierfy",
+    "uid": "445671",
+    "electrified": "contact_line",
+    "frequency": "16.7",
+    "gauge": "1435",
+    "maxspeed": "130",
+    "operator": "SBB",
+    "passenger_lines": "2",
+    "railway": "rail",
+    "railway:etcs": "2",
+    "railway:track_ref": "1",
+    "tracks": "1",
+    "usage": "main",
+    "voltage": "15000",
+    "id": "way/274268037"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6912238,
+        46.5036329
+      ],
+      [
+        6.6903488,
+        46.5039546
+      ],
+      [
+        6.6885423,
+        46.5047401
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/418392987",
+  "properties": {
+    "timestamp": "2016-05-15T22:42:38Z",
+    "version": "1",
+    "changeset": "39340406",
+    "user": "eric6quatre",
+    "uid": "130849",
+    "access": "private",
+    "highway": "service",
+    "oneway": "no",
+    "service": "driveway",
+    "surface": "asphalt",
+    "id": "way/418392987"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.68944,
+        46.5047695
+      ],
+      [
+        6.689416,
+        46.5047414
+      ],
+      [
+        6.689402,
+        46.5046964
+      ],
+      [
+        6.6894044,
+        46.5046402
+      ],
+      [
+        6.6894324,
+        46.5045952
+      ],
+      [
+        6.689918,
+        46.5043911
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/424731210",
+  "properties": {
+    "timestamp": "2016-06-13T11:28:13Z",
+    "version": "1",
+    "changeset": "39990499",
+    "user": "eric6quatre",
+    "uid": "130849",
+    "highway": "service",
+    "service": "driveway",
+    "surface": "asphalt",
+    "id": "way/424731210"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6888056,
+        46.5031172
+      ],
+      [
+        6.6891682,
+        46.5034811
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/424731240",
+  "properties": {
+    "timestamp": "2018-08-24T23:07:27Z",
+    "version": "2",
+    "changeset": "61973448",
+    "user": "gdiscry",
+    "uid": "8339330",
+    "highway": "service",
+    "service": "driveway",
+    "id": "way/424731240"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6897088,
+        46.502743
+      ],
+      [
+        6.6903432,
+        46.5033721
+      ],
+      [
+        6.6904081,
+        46.5034364
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/522954851",
+  "properties": {
+    "timestamp": "2017-09-09T16:30:51Z",
+    "version": "1",
+    "changeset": "51884871",
+    "user": "Penegal",
+    "uid": "2815659",
+    "bridge": "yes",
+    "highway": "footway",
+    "id": "way/522954851"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6910983,
+        46.5034783
+      ],
+      [
+        6.6912679,
+        46.5037243
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/522954852",
+  "properties": {
+    "timestamp": "2017-09-09T16:30:51Z",
+    "version": "1",
+    "changeset": "51884871",
+    "user": "Penegal",
+    "uid": "2815659",
+    "highway": "footway",
+    "id": "way/522954852"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6912679,
+        46.5037243
+      ],
+      [
+        6.6913355,
+        46.5037357
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/522954853",
+  "properties": {
+    "timestamp": "2017-09-09T16:30:51Z",
+    "version": "1",
+    "changeset": "51884871",
+    "user": "Penegal",
+    "uid": "2815659",
+    "highway": "steps",
+    "id": "way/522954853"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6910426,
+        46.5034078
+      ],
+      [
+        6.6910983,
+        46.5034783
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/585048173",
+  "properties": {
+    "timestamp": "2018-05-02T06:34:15Z",
+    "version": "1",
+    "changeset": "58604086",
+    "user": "Penegal",
+    "uid": "2815659",
+    "highway": "residential",
+    "name": "Chemin de Bertholod",
+    "id": "way/585048173"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6913946,
+        46.503989
+      ],
+      [
+        6.6914347,
+        46.5039742
+      ],
+      [
+        6.6914632,
+        46.5037942
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/585048174",
+  "properties": {
+    "timestamp": "2020-09-02T05:22:39Z",
+    "version": "2",
+    "changeset": "90276937",
+    "user": "eric6quatre",
+    "uid": "130849",
+    "access": "no",
+    "check_date": "20200902",
+    "highway": "construction",
+    "maxspeed": "50",
+    "name": "Route de Savuit",
+    "note": "Travaux dans tunnel ferroviaire de Bertholod",
+    "opening_date": "2021",
+    "id": "way/585048174"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6913355,
+        46.5037357
+      ],
+      [
+        6.6913669,
+        46.5038187
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/585048175",
+  "properties": {
+    "timestamp": "2021-03-21T02:47:37Z",
+    "version": "5",
+    "changeset": "101424288",
+    "user": "eric6quatre",
+    "uid": "130849",
+    "access": "no",
+    "check_date": "20200902",
+    "construction": "tertiary",
+    "highway": "construction",
+    "maxspeed": "50",
+    "name": "Route de Savuit",
+    "note": "Travaux dans tunnel ferroviaire de Bertholod",
+    "opening_date": "2021-06",
+    "surface": "asphalt",
+    "id": "way/585048175"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6913355,
+        46.5037357
+      ],
+      [
+        6.6913053,
+        46.5036557
+      ],
+      [
+        6.691088,
+        46.5033839
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/585048176",
+  "properties": {
+    "timestamp": "2018-06-01T08:00:12Z",
+    "version": "3",
+    "changeset": "59452839",
+    "user": "pherjung",
+    "uid": "1960557",
+    "highway": "residential",
+    "maxspeed": "50",
+    "maxspeed:type": "sign",
+    "name": "Avenue de la Gare",
+    "surface": "asphalt",
+    "id": "way/585048176"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6910426,
+        46.5034078
+      ],
+      [
+        6.691088,
+        46.5033839
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/585048177",
+  "properties": {
+    "timestamp": "2018-06-01T08:00:12Z",
+    "version": "2",
+    "changeset": "59452837",
+    "user": "pherjung",
+    "uid": "1960557",
+    "highway": "residential",
+    "name": "Avenue de la Gare",
+    "surface": "asphalt",
+    "id": "way/585048177"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6903609,
+        46.5036998
+      ],
+      [
+        6.6891997,
+        46.5042151
+      ],
+      [
+        6.6887271,
+        46.5044157
+      ],
+      [
+        6.6886661,
+        46.5044416
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/619581224",
+  "properties": {
+    "timestamp": "2018-08-24T23:07:27Z",
+    "version": "1",
+    "changeset": "61973448",
+    "user": "gdiscry",
+    "uid": "8339330",
+    "highway": "steps",
+    "incline": "up",
+    "id": "way/619581224"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6903474,
+        46.5034334
+      ],
+      [
+        6.6904775,
+        46.5035645
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/619581226",
+  "properties": {
+    "timestamp": "2018-08-24T23:07:27Z",
+    "version": "1",
+    "changeset": "61973448",
+    "user": "gdiscry",
+    "uid": "8339330",
+    "highway": "path",
+    "id": "way/619581226"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6903432,
+        46.5033721
+      ],
+      [
+        6.6903474,
+        46.5034334
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/619581227",
+  "properties": {
+    "timestamp": "2018-08-24T23:07:27Z",
+    "version": "1",
+    "changeset": "61973448",
+    "user": "gdiscry",
+    "uid": "8339330",
+    "highway": "footway",
+    "id": "way/619581227"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6904775,
+        46.5035645
+      ],
+      [
+        6.6907352,
+        46.5034695
+      ],
+      [
+        6.6907853,
+        46.503532
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/666212463",
+  "properties": {
+    "timestamp": "2019-01-26T01:08:07Z",
+    "version": "1",
+    "changeset": "66647298",
+    "user": "eric6quatre",
+    "uid": "130849",
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Route de Sermotier",
+    "id": "way/666212463"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.68944,
+        46.5047695
+      ],
+      [
+        6.6894908,
+        46.5047471
+      ],
+      [
+        6.6909065,
+        46.5041586
+      ],
+      [
+        6.6912567,
+        46.5040184
+      ],
+      [
+        6.6913946,
+        46.503989
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/847292814",
+  "properties": {
+    "timestamp": "2020-09-14T20:25:57Z",
+    "version": "1",
+    "changeset": "90884809",
+    "user": "rbuffat",
+    "uid": "9560206",
+    "highway": "path",
+    "id": "way/847292814"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6929038,
+        46.503778
+      ],
+      [
+        6.6922695,
+        46.5041274
+      ],
+      [
+        6.6919989,
+        46.5038562
+      ],
+      [
+        6.6916811,
+        46.5040139
+      ],
+      [
+        6.6914024,
+        46.5040692
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/847292816",
+  "properties": {
+    "timestamp": "2020-09-14T20:25:57Z",
+    "version": "1",
+    "changeset": "90884809",
+    "user": "rbuffat",
+    "uid": "9560206",
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Route de Savuit",
+    "oneway": "yes",
+    "id": "way/847292816"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.6914024,
+        46.5040692
+      ],
+      [
+        6.6914309,
+        46.5043607
+      ],
+      [
+        6.6914677,
+        46.5045361
+      ],
+      [
+        6.6916798,
+        46.5049283
+      ],
+      [
+        6.6918709,
+        46.5054227
+      ],
+      [
+        6.6918846,
+        46.5054581
+      ],
+      [
+        6.691964,
+        46.5056635
+      ],
+      [
+        6.6921099,
+        46.5058762
+      ],
+      [
+        6.6923674,
+        46.5060652
+      ],
+      [
+        6.6925047,
+        46.5061657
+      ],
+      [
+        6.6926077,
+        46.5063075
+      ],
+      [
+        6.6927178,
+        46.5065674
+      ],
+      [
+        6.6927181,
+        46.5067066
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/281661022",
+  "properties": {
+    "timestamp": "2021-01-03T14:29:32Z",
+    "version": "8",
+    "changeset": "96849076",
+    "user": "imagoiq_",
+    "uid": "1856092",
+    "local_ref": "1",
+    "name": "Lutry",
+    "network": "Mobilis",
+    "network:wikidata": "Q2394222",
+    "operator": "SBB",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "train": "yes",
+    "uic_name": "Lutry",
+    "uic_ref": "8501122",
+    "id": "node/281661022"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6903488,
+      46.5039546
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/420690590",
+  "properties": {
+    "timestamp": "2021-03-23T04:21:44Z",
+    "version": "3",
+    "changeset": "101539926",
+    "user": "pherjung",
+    "uid": "1960557",
+    "amenity": "vending_machine",
+    "check_date": "2021-03-23",
+    "id": "node/420690590"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6901403,
+      46.5039832
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/428869458",
+  "properties": {
+    "timestamp": "2009-07-26T19:22:06Z",
+    "version": "2",
+    "changeset": "1947863",
+    "user": "Stéphane Brunner",
+    "uid": "17835",
+    "name": "Savuit",
+    "traffic_sign": "city_limit",
+    "id": "node/428869458"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6921099,
+      46.5058762
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/534866042",
+  "properties": {
+    "timestamp": "2021-03-23T04:22:55Z",
+    "version": "4",
+    "changeset": "101539994",
+    "user": "pherjung",
+    "uid": "1960557",
+    "amenity": "toilets",
+    "fee": "no",
+    "wheelchair": "no",
+    "id": "node/534866042"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6910671,
+      46.5036015
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/534866043",
+  "properties": {
+    "timestamp": "2021-03-23T04:21:38Z",
+    "version": "6",
+    "changeset": "101539919",
+    "user": "pherjung",
+    "uid": "1960557",
+    "amenity": "post_box",
+    "check_date:collection_times": "2021-03-23",
+    "collection_times": "Mo-Sa 08:30",
+    "ref": "1-1095-19219",
+    "id": "node/534866043"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6901181,
+      46.503851
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/534866044",
+  "properties": {
+    "timestamp": "2020-09-14T20:25:57Z",
+    "version": "2",
+    "changeset": "90884809",
+    "user": "rbuffat",
+    "uid": "9560206",
+    "ele": "405",
+    "hiking": "yes",
+    "information": "guidepost",
+    "name": "Lutry",
+    "tourism": "information",
+    "id": "node/534866044"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6904767,
+      46.5037579
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/534866046",
+  "properties": {
+    "timestamp": "2021-03-23T04:20:55Z",
+    "version": "7",
+    "changeset": "101539875",
+    "user": "pherjung",
+    "uid": "1960557",
+    "bench": "no",
+    "ele": "402",
+    "highway": "bus_stop",
+    "name": "Lutry, gare",
+    "operator": "TL",
+    "public_transport": "platform",
+    "shelter": "no",
+    "tactile_paving": "no",
+    "uic_name": "Lutry, gare",
+    "uic_ref": "8593861",
+    "id": "node/534866046"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6902365,
+      46.5038401
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/534866051",
+  "properties": {
+    "timestamp": "2018-06-01T08:00:13Z",
+    "version": "2",
+    "changeset": "59452841",
+    "user": "pherjung",
+    "uid": "1960557",
+    "amenity": "bicycle_parking",
+    "capacity": "21",
+    "id": "node/534866051"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6904055,
+      46.5038172
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/931520584",
+  "properties": {
+    "timestamp": "2020-02-22T23:22:04Z",
+    "version": "5",
+    "changeset": "81356558",
+    "user": "eric6quatre",
+    "uid": "130849",
+    "addr:city": "Lutry",
+    "addr:country": "CH",
+    "addr:postcode": "1095",
+    "amenity": "car_sharing",
+    "capacity": "1",
+    "mobility:station_id": "3845",
+    "name": "Lutry Gare",
+    "opening_hours": "24/7",
+    "operator": "Mobility Genossenschaft",
+    "supervised": "no",
+    "website": "https://www.mobility.ch/",
+    "id": "node/931520584"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.69032,
+      46.50375
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1032232028",
+  "properties": {
+    "timestamp": "2021-01-03T14:29:32Z",
+    "version": "4",
+    "changeset": "96849076",
+    "user": "imagoiq_",
+    "uid": "1856092",
+    "local_ref": "2",
+    "name": "Lutry",
+    "network": "Mobilis",
+    "network:wikidata": "Q2394222",
+    "operator": "SBB",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "train": "yes",
+    "uic_name": "Lutry",
+    "uic_ref": "8501122",
+    "id": "node/1032232028"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6903665,
+      46.5039775
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1187356650",
+  "properties": {
+    "timestamp": "2018-06-01T08:00:09Z",
+    "version": "2",
+    "changeset": "59452834",
+    "user": "pherjung",
+    "uid": "1960557",
+    "amenity": "recycling",
+    "location": "overground",
+    "recycling_type": "container",
+    "id": "node/1187356650"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6887582,
+      46.5043444
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2793378029",
+  "properties": {
+    "timestamp": "2019-01-09T16:59:38Z",
+    "version": "4",
+    "changeset": "66168851",
+    "user": "Edward",
+    "uid": "364",
+    "ele": "402",
+    "name": "Lutry",
+    "operator": "SBB",
+    "public_transport": "station",
+    "railway": "halt",
+    "uic_name": "Lutry",
+    "uic_ref": "8501122",
+    "url": "http://www.sbb.ch/fr/",
+    "wikidata": "Q10949227",
+    "id": "node/2793378029"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6903162,
+      46.5039018
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4630544644",
+  "properties": {
+    "timestamp": "2018-06-01T08:00:14Z",
+    "version": "2",
+    "changeset": "59452842",
+    "user": "pherjung",
+    "uid": "1960557",
+    "crossing": "uncontrolled",
+    "highway": "crossing",
+    "id": "node/4630544644"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6887271,
+      46.5044157
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7906504380",
+  "properties": {
+    "timestamp": "2020-09-14T20:25:57Z",
+    "version": "1",
+    "changeset": "90884809",
+    "user": "rbuffat",
+    "uid": "9560206",
+    "hiking": "yes",
+    "information": "guidepost",
+    "tourism": "information",
+    "id": "node/7906504380"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6910691,
+      46.5034663
+    ]
+  }
+}
+]
+}
