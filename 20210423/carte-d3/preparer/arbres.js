@@ -1,11 +1,9 @@
 const data = require('./map.json')
 
+const fs = require('fs')
+
 const result = data.features
   .filter(d => d.geometry.type === 'Point' && d.properties.natural === 'tree')
   .map(d => d.geometry.coordinates)
 
-console.log(
-  JSON.stringify(
-    result
-  )
-)
+fs.writeFileSync('../src/arbres.json', JSON.stringify(result), 'utf-8')

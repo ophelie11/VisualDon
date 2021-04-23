@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><osm version="0.6" generator="Overpass API 0.7.56.9 76e5016d">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2021-04-23T12:07:42Z"/>
+
+  <node id="273414114" lat="46.5025058" lon="6.6935707">
+    <tag k="amenity" v="drinking_water"/>
+  </node>
+
+</osm>
