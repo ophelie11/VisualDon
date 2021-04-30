@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    width: 0;
+    font-family: roboto, sans-serif;
+  }
+  #map {
+    width: 100vw;
+    height: 70vh;
+  }
+  header {
+    width: 100vw;
+    padding: 0.5rem 0.5rem;
+    /*color: #ba987e;
+    background-color: #fcf1e8;*/
+    text-align: center;
+    border-bottom: #ba987e solid 2px;
+  }
+  footer {
+    width: 100vw;
+    text-align: center;
+    border-top: #ba987e solid 2px;
+  }

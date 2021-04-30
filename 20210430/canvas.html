@@ -1,0 +1,47 @@
+<html>
+
+<body>
+    <canvas id="mon-dessin" width="500" height="300"></canvas>
+    <script>
+
+        const canvas = document.getElementById('mon-dessin')
+        const context = canvas.getContext('2d')
+
+        const WIDTH = 500
+        const HEIGHT = WIDTH / 4
+        const center = { x: WIDTH / 2, y: HEIGHT / 2 }
+
+        //cercle jaune
+        context.beginPath()
+        context.arc(center.x, center.y, HEIGHT / 2, 0, Math.PI * 2)
+        context.fillStyle = 'gold'
+        context.fill()
+
+        //cercles noir (yeux)
+        context.beginPath()
+        context.arc(WIDTH / 2.15, HEIGHT / 3, HEIGHT / 20, 0, Math.PI * 2)
+        context.fillStyle = 'black'
+        context.fill()
+
+        context.beginPath()
+        context.arc(WIDTH / 1.9, HEIGHT / 3, HEIGHT / 20, 0, Math.PI * 2)
+        context.fillStyle = 'black'
+        context.fill()
+
+        //arc (bouche)
+        const rayon = 40;
+        const angleDep = 0;
+        const angleArr = 3.1
+        context.beginPath()
+        context.arc(WIDTH / 2, HEIGHT / 2, rayon, angleDep, angleArr)
+        context.lineWidth = 4
+        context.stroke()
+
+        //texte
+        context.font = '30px serif'
+        context.fillText('Bonne journée', 165, 160)
+
+    </script>
+</body>
+
+</html>
