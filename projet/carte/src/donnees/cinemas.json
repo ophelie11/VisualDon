@@ -1,0 +1,2574 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-04-30T12:16:43Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/44296021",
+        "amenity": "cinema",
+        "building": "yes",
+        "copyright": "OpenAddresses",
+        "name": "Pathé Flon",
+        "name:ko": "파테 플롱",
+        "oa:imported_by": "sbrunner",
+        "oa:lat": "46.52218246",
+        "oa:lon": "6.62672997",
+        "oa:version": "oa2osm - 0.2 - sax",
+        "source": "orthophoto lausanne 2009",
+        "website": "https://pathe.ch/",
+        "wheelchair": "yes",
+        "wikidata": "Q35721491"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6264365,
+              46.5221841
+            ],
+            [
+              6.6262773,
+              46.5218685
+            ],
+            [
+              6.6263495,
+              46.5218515
+            ],
+            [
+              6.6268626,
+              46.5217325
+            ],
+            [
+              6.626913,
+              46.5217216
+            ],
+            [
+              6.6270652,
+              46.5220426
+            ],
+            [
+              6.6264365,
+              46.5221841
+            ]
+          ]
+        ]
+      },
+      "id": "way/44296021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/46612742",
+        "addr:city": "Lausanne",
+        "addr:country": "CH",
+        "amenity": "cinema",
+        "building": "yes",
+        "name": "Moderne",
+        "source": "Orthophoto Ville de Lausanne 2008",
+        "wikidata": "Q35721384"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6260041,
+              46.5165244
+            ],
+            [
+              6.6261151,
+              46.5166387
+            ],
+            [
+              6.6261204,
+              46.5166537
+            ],
+            [
+              6.6261187,
+              46.5166672
+            ],
+            [
+              6.6261115,
+              46.5166808
+            ],
+            [
+              6.6260974,
+              46.5166913
+            ],
+            [
+              6.6260757,
+              46.516699
+            ],
+            [
+              6.6258264,
+              46.5167519
+            ],
+            [
+              6.6257701,
+              46.5167632
+            ],
+            [
+              6.6257198,
+              46.5167699
+            ],
+            [
+              6.62567,
+              46.5167735
+            ],
+            [
+              6.6256253,
+              46.5167743
+            ],
+            [
+              6.6255871,
+              46.516709
+            ],
+            [
+              6.6256177,
+              46.5166894
+            ],
+            [
+              6.6256575,
+              46.5166697
+            ],
+            [
+              6.6257106,
+              46.5166445
+            ],
+            [
+              6.6258751,
+              46.5165958
+            ],
+            [
+              6.6258606,
+              46.516569
+            ],
+            [
+              6.6260041,
+              46.5165244
+            ]
+          ]
+        ]
+      },
+      "id": "way/46612742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/65599745",
+        "addr:city": "Archamps",
+        "addr:postcode": "74160",
+        "amenity": "cinema",
+        "brand": "Pathé Gaumont",
+        "brand:website": "https://www.cinemaspathegaumont.com",
+        "brand:wikidata": "Q3060526",
+        "brand:wikipedia": "fr:Les cinémas Pathé Gaumont",
+        "building": "cinema",
+        "building:levels": "2",
+        "capacity": "2554",
+        "cinema:3D": "yes",
+        "cinema:IMAX": "yes",
+        "contact:facebook": "https://www.facebook.com/PatheArchamps/",
+        "contact:phone": "+33 4 50 43 28 00",
+        "contact:website": "http://www.cinemasgaumontpathe.com/cinemas/cinema-gaumont-archamps/",
+        "height": "4.5",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Pathé",
+        "name:1997-2019": "Gaumont Archamps",
+        "note": "Changement de nom en durant le 1er semestre 2019 (mars-avril ?)",
+        "official_name": "Pathé Archamps",
+        "opening_hours": "Mo-Su 10:00-23:59",
+        "operator": "Société des Grands Écrans Genevois",
+        "payment:coins": "yes",
+        "payment:mastercard": "yes",
+        "payment:notes": "yes",
+        "payment:visa": "yes",
+        "ref:FR:CNC": "22231",
+        "ref:FR:NAF": "5914Z",
+        "ref:FR:SIRET": "40985555800022",
+        "roof:shape": "flat",
+        "screen": "12",
+        "source": "extraction vectorielle v1 cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010",
+        "start_date": "1997-10-22",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.1212757,
+              46.1385763
+            ],
+            [
+              6.121505,
+              46.1384849
+            ],
+            [
+              6.1214082,
+              46.1383681
+            ],
+            [
+              6.1214365,
+              46.1382978
+            ],
+            [
+              6.1213694,
+              46.1382172
+            ],
+            [
+              6.1217971,
+              46.1380462
+            ],
+            [
+              6.1219692,
+              46.138254
+            ],
+            [
+              6.1219205,
+              46.1382731
+            ],
+            [
+              6.1219345,
+              46.1382899
+            ],
+            [
+              6.1218462,
+              46.1383254
+            ],
+            [
+              6.1218323,
+              46.1383084
+            ],
+            [
+              6.1217238,
+              46.1383517
+            ],
+            [
+              6.1217525,
+              46.1383859
+            ],
+            [
+              6.1219488,
+              46.1383073
+            ],
+            [
+              6.1221003,
+              46.1384904
+            ],
+            [
+              6.1220684,
+              46.1385031
+            ],
+            [
+              6.1221134,
+              46.1385576
+            ],
+            [
+              6.1220887,
+              46.138568
+            ],
+            [
+              6.1221344,
+              46.1386217
+            ],
+            [
+              6.1221587,
+              46.1386116
+            ],
+            [
+              6.1222151,
+              46.1386799
+            ],
+            [
+              6.1221884,
+              46.1386906
+            ],
+            [
+              6.1222411,
+              46.1387542
+            ],
+            [
+              6.1222936,
+              46.1388175
+            ],
+            [
+              6.12232,
+              46.1388071
+            ],
+            [
+              6.1223595,
+              46.1388538
+            ],
+            [
+              6.1223339,
+              46.1388642
+            ],
+            [
+              6.1223955,
+              46.138939
+            ],
+            [
+              6.1224212,
+              46.1389286
+            ],
+            [
+              6.1224626,
+              46.1389777
+            ],
+            [
+              6.1224942,
+              46.1389655
+            ],
+            [
+              6.1226454,
+              46.1391486
+            ],
+            [
+              6.1219733,
+              46.1394171
+            ],
+            [
+              6.1219003,
+              46.1393302
+            ],
+            [
+              6.1215363,
+              46.138892
+            ],
+            [
+              6.1212757,
+              46.1385763
+            ]
+          ]
+        ]
+      },
+      "id": "way/65599745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/66977219",
+        "addr:housenumber": "12 ter",
+        "amenity": "cinema",
+        "building": "yes",
+        "name": "Royal",
+        "ref:FR:CNC": "154251",
+        "source": "extraction vectorielle v1 cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.5957484,
+              46.4000947
+            ],
+            [
+              6.5957577,
+              46.400138
+            ],
+            [
+              6.5957614,
+              46.4001613
+            ],
+            [
+              6.5955943,
+              46.4001927
+            ],
+            [
+              6.595578,
+              46.4001026
+            ],
+            [
+              6.5957484,
+              46.4000947
+            ]
+          ]
+        ]
+      },
+      "id": "way/66977219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/120923430",
+        "amenity": "cinema",
+        "building": "yes",
+        "name": "Prado",
+        "wikidata": "Q35720418"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.0558871,
+              46.6190042
+            ],
+            [
+              7.0558373,
+              46.6188651
+            ],
+            [
+              7.0560442,
+              46.6188302
+            ],
+            [
+              7.056094,
+              46.6189693
+            ],
+            [
+              7.0558871,
+              46.6190042
+            ]
+          ]
+        ]
+      },
+      "id": "way/120923430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/143604606",
+        "acoustic": "voice_description",
+        "addr:city": "Villard",
+        "addr:housenumber": "430",
+        "addr:postcode": "74420",
+        "addr:street": "Route de la Veillaz Devant",
+        "amenity": "cinema",
+        "building": "commercial",
+        "cinema:3D": "yes",
+        "contact:email": "cinema-latrace@wanadoo.fr",
+        "contact:phone": "+33 4 50 39 08 64",
+        "email": "cinema-latrace@wanadoo.fr",
+        "name": "La Trace",
+        "phone": "+33 4 50 39 08 64",
+        "ref:FR:CNC": "454671",
+        "screen": "1",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+        "website": "https://cinema-latrace.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.4418528,
+              46.2170527
+            ],
+            [
+              6.4421239,
+              46.2170871
+            ],
+            [
+              6.4421217,
+              46.2170956
+            ],
+            [
+              6.4422082,
+              46.2171064
+            ],
+            [
+              6.4421918,
+              46.217168
+            ],
+            [
+              6.4421052,
+              46.2171567
+            ],
+            [
+              6.4421031,
+              46.2171646
+            ],
+            [
+              6.4418323,
+              46.2171299
+            ],
+            [
+              6.4418528,
+              46.2170527
+            ]
+          ]
+        ]
+      },
+      "id": "way/143604606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/183819239",
+        "addr:city": "Thonon-les-Bains",
+        "addr:housenumber": "63",
+        "addr:postcode": "74200",
+        "addr:street": "Avenue de Senevulaz",
+        "amenity": "cinema",
+        "building": "commercial",
+        "cinema:3D": "no",
+        "contact:email": "contact@cineleman.fr",
+        "contact:facebook": "https://www.facebook.com/cinelemanthonon",
+        "contact:phone": "+33 4 50 70 00 90",
+        "contact:website": "http://www.cineleman.fr/",
+        "name": "Ciné Léman",
+        "opening_hours": "Mo-Sa 13:30-22:15; Su 10:30-22:15",
+        "ref:FR:CNC": "426924",
+        "ref:FR:NIC": "5914Z",
+        "ref:FR:SIRET": "79608061200016",
+        "roof:shape": "flat",
+        "screen": "8",
+        "start_date": "1960-01-01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.4672635,
+              46.353283
+            ],
+            [
+              6.4667802,
+              46.3530611
+            ],
+            [
+              6.4671578,
+              46.3526659
+            ],
+            [
+              6.4671071,
+              46.3526428
+            ],
+            [
+              6.467281,
+              46.3524607
+            ],
+            [
+              6.4676104,
+              46.3526118
+            ],
+            [
+              6.4679275,
+              46.3526807
+            ],
+            [
+              6.4679039,
+              46.3527321
+            ],
+            [
+              6.4678319,
+              46.3527165
+            ],
+            [
+              6.4677894,
+              46.3528093
+            ],
+            [
+              6.4678615,
+              46.3528251
+            ],
+            [
+              6.4678387,
+              46.352875
+            ],
+            [
+              6.4677221,
+              46.3528495
+            ],
+            [
+              6.4676141,
+              46.3529627
+            ],
+            [
+              6.4675827,
+              46.3529485
+            ],
+            [
+              6.4675614,
+              46.3529712
+            ],
+            [
+              6.4675734,
+              46.3529765
+            ],
+            [
+              6.4673865,
+              46.353172
+            ],
+            [
+              6.4673633,
+              46.3531611
+            ],
+            [
+              6.4673418,
+              46.353184
+            ],
+            [
+              6.4673539,
+              46.3531896
+            ],
+            [
+              6.4672635,
+              46.353283
+            ]
+          ]
+        ]
+      },
+      "id": "way/183819239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/197258259",
+        "addr:street": "Avenue du Stade",
+        "amenity": "cinema",
+        "building": "commercial",
+        "contact:facebook": "https://www.facebook.com/Espacecinemadouvaine/",
+        "contact:phone": "+33 4 50 94 22 14",
+        "name": "L'Espace",
+        "ref:FR:CNC": "142311",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.303675,
+              46.303384
+            ],
+            [
+              6.303643,
+              46.303374
+            ],
+            [
+              6.303637,
+              46.303372
+            ],
+            [
+              6.303629,
+              46.303366
+            ],
+            [
+              6.303621,
+              46.303357
+            ],
+            [
+              6.303619,
+              46.303353
+            ],
+            [
+              6.303616,
+              46.303336
+            ],
+            [
+              6.303619,
+              46.303319
+            ],
+            [
+              6.303625,
+              46.303305
+            ],
+            [
+              6.303611,
+              46.303304
+            ],
+            [
+              6.303602,
+              46.303302
+            ],
+            [
+              6.303582,
+              46.303293
+            ],
+            [
+              6.30346,
+              46.303497
+            ],
+            [
+              6.303436,
+              46.303491
+            ],
+            [
+              6.30343,
+              46.303501
+            ],
+            [
+              6.303426,
+              46.303505
+            ],
+            [
+              6.30342,
+              46.303508
+            ],
+            [
+              6.303415,
+              46.303508
+            ],
+            [
+              6.303407,
+              46.303507
+            ],
+            [
+              6.303341,
+              46.303488
+            ],
+            [
+              6.303335,
+              46.303485
+            ],
+            [
+              6.303328,
+              46.303478
+            ],
+            [
+              6.303328,
+              46.303474
+            ],
+            [
+              6.303334,
+              46.303462
+            ],
+            [
+              6.30331,
+              46.303455
+            ],
+            [
+              6.303425,
+              46.303264
+            ],
+            [
+              6.303448,
+              46.303271
+            ],
+            [
+              6.303455,
+              46.30324
+            ],
+            [
+              6.3033616,
+              46.3032301
+            ],
+            [
+              6.3033624,
+              46.3032241
+            ],
+            [
+              6.3033652,
+              46.303212
+            ],
+            [
+              6.3033688,
+              46.303202
+            ],
+            [
+              6.3033725,
+              46.3031939
+            ],
+            [
+              6.3033772,
+              46.3031857
+            ],
+            [
+              6.3033812,
+              46.3031797
+            ],
+            [
+              6.3033913,
+              46.3031672
+            ],
+            [
+              6.3034003,
+              46.3031582
+            ],
+            [
+              6.3034028,
+              46.3031559
+            ],
+            [
+              6.3033881,
+              46.3031496
+            ],
+            [
+              6.303393,
+              46.303143
+            ],
+            [
+              6.303417,
+              46.303123
+            ],
+            [
+              6.303431,
+              46.303113
+            ],
+            [
+              6.303455,
+              46.303099
+            ],
+            [
+              6.303494,
+              46.303082
+            ],
+            [
+              6.303544,
+              46.303068
+            ],
+            [
+              6.303572,
+              46.303063
+            ],
+            [
+              6.303587,
+              46.303062
+            ],
+            [
+              6.30359,
+              46.303061
+            ],
+            [
+              6.3036,
+              46.303061
+            ],
+            [
+              6.303605,
+              46.30306
+            ],
+            [
+              6.303647,
+              46.30306
+            ],
+            [
+              6.303654,
+              46.303061
+            ],
+            [
+              6.303666,
+              46.303061
+            ],
+            [
+              6.303683,
+              46.303063
+            ],
+            [
+              6.303689,
+              46.303065
+            ],
+            [
+              6.303702,
+              46.303066
+            ],
+            [
+              6.303711,
+              46.303069
+            ],
+            [
+              6.303732,
+              46.303073
+            ],
+            [
+              6.303737,
+              46.303075
+            ],
+            [
+              6.303652,
+              46.303218
+            ],
+            [
+              6.303662,
+              46.303221
+            ],
+            [
+              6.303671,
+              46.303226
+            ],
+            [
+              6.303677,
+              46.30323
+            ],
+            [
+              6.303684,
+              46.303237
+            ],
+            [
+              6.303691,
+              46.30325
+            ],
+            [
+              6.303692,
+              46.303261
+            ],
+            [
+              6.303705,
+              46.303262
+            ],
+            [
+              6.303733,
+              46.30327
+            ],
+            [
+              6.303749,
+              46.303245
+            ],
+            [
+              6.303901,
+              46.30329
+            ],
+            [
+              6.303886,
+              46.303315
+            ],
+            [
+              6.304087,
+              46.303375
+            ],
+            [
+              6.304059,
+              46.303422
+            ],
+            [
+              6.304073,
+              46.303427
+            ],
+            [
+              6.304097,
+              46.30344
+            ],
+            [
+              6.304112,
+              46.303453
+            ],
+            [
+              6.304115,
+              46.303459
+            ],
+            [
+              6.304119,
+              46.303463
+            ],
+            [
+              6.304014,
+              46.303495
+            ],
+            [
+              6.303947,
+              46.303476
+            ],
+            [
+              6.303954,
+              46.303465
+            ],
+            [
+              6.303675,
+              46.303384
+            ]
+          ]
+        ]
+      },
+      "id": "way/197258259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/218153037",
+        "amenity": "cinema",
+        "building": "yes",
+        "name": "Le Club",
+        "ref:FR:CNC": "176722",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.666394,
+              46.156617
+            ],
+            [
+              6.6663507,
+              46.1565664
+            ],
+            [
+              6.666305,
+              46.156513
+            ],
+            [
+              6.666523,
+              46.156437
+            ],
+            [
+              6.666594,
+              46.156413
+            ],
+            [
+              6.666619,
+              46.156465
+            ],
+            [
+              6.666596,
+              46.156476
+            ],
+            [
+              6.666607,
+              46.15649
+            ],
+            [
+              6.666627,
+              46.15651
+            ],
+            [
+              6.666394,
+              46.156617
+            ]
+          ]
+        ]
+      },
+      "id": "way/218153037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/348178860",
+        "addr:city": "Le Sentier",
+        "addr:housenumber": "1",
+        "addr:street": "Chemin des Cytises",
+        "amenity": "cinema",
+        "building": "yes",
+        "name": "La Bobine",
+        "phone": "+41 21 845 43 76",
+        "website": "http://www.cinebobine.ch/",
+        "wikidata": "Q47354322"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.2287037,
+              46.6061742
+            ],
+            [
+              6.2287883,
+              46.6061159
+            ],
+            [
+              6.2289092,
+              46.6061988
+            ],
+            [
+              6.2289009,
+              46.6062045
+            ],
+            [
+              6.228945,
+              46.6062348
+            ],
+            [
+              6.2288687,
+              46.6062873
+            ],
+            [
+              6.2287126,
+              46.6063948
+            ],
+            [
+              6.2285476,
+              46.6062816
+            ],
+            [
+              6.2287037,
+              46.6061742
+            ]
+          ]
+        ]
+      },
+      "id": "way/348178860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/660905556",
+        "addr:housenumber": "95",
+        "addr:street": "Route de Vonnes",
+        "amenity": "cinema",
+        "building": "commercial",
+        "contact:email": "cinemorclan2000@orange.fr",
+        "contact:phone": "+33 4 50 73 21 04",
+        "name": "Le Morclan 2000",
+        "ref:FR:CNC": "105091",
+        "screen": "1",
+        "source": "extraction vectorielle v1 cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010",
+        "website": "https://www.chatel.com/cinema-morclan-2000.html",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.8417236,
+              46.2662829
+            ],
+            [
+              6.8416846,
+              46.2664943
+            ],
+            [
+              6.8415327,
+              46.2664793
+            ],
+            [
+              6.8415633,
+              46.266317
+            ],
+            [
+              6.8415455,
+              46.2663152
+            ],
+            [
+              6.8415554,
+              46.2662639
+            ],
+            [
+              6.8417236,
+              46.2662829
+            ]
+          ]
+        ]
+      },
+      "id": "way/660905556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/882873183",
+        "addr:street": "Rue des Alpes",
+        "amenity": "cinema",
+        "brand": "Ciné Monde",
+        "brand:website": "https://www.cinemonde.fr",
+        "brand:wikidata": "Q98959398",
+        "building": "commercial",
+        "capacity": "880",
+        "name": "Studio 6",
+        "roof:shape": "flat",
+        "screen": "6",
+        "website": "https://www.cinemonde.fr/studio-six-annemasse/",
+        "year_of_construction": "2019"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.2352535,
+              46.1965094
+            ],
+            [
+              6.235416,
+              46.196449
+            ],
+            [
+              6.235477,
+              46.196421
+            ],
+            [
+              6.235801,
+              46.196273
+            ],
+            [
+              6.2359046,
+              46.1962257
+            ],
+            [
+              6.2359126,
+              46.1962219
+            ],
+            [
+              6.2360468,
+              46.1964007
+            ],
+            [
+              6.2356237,
+              46.196597
+            ],
+            [
+              6.2353763,
+              46.1966837
+            ],
+            [
+              6.2352535,
+              46.1965094
+            ]
+          ]
+        ]
+      },
+      "id": "way/882873183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/253266818",
+        "amenity": "cinema",
+        "name": "Cinétoile - Malley Lumières",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:wheelchair": "designated",
+        "wheelchair": "limited",
+        "wheelchair:description": "All rooms except number 4 are accessible",
+        "wikidata": "Q35721691"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6025465,
+          46.5273408
+        ]
+      },
+      "id": "node/253266818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/253266825",
+        "addr:city": "Morges",
+        "addr:country": "CH",
+        "addr:housenumber": "4",
+        "addr:postcode": "1110",
+        "addr:street": "Place Charles Dufour",
+        "amenity": "cinema",
+        "contact:phone": "+41 21 802 47 01",
+        "contact:website": "http://cinemaodeon.ch",
+        "name": "Odéon",
+        "phone": "+41 (0) 21 802 47 01",
+        "website": "http://www.cinemaodeon.ch/",
+        "wikidata": "Q35721636"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4958654,
+          46.5077991
+        ]
+      },
+      "id": "node/253266825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/253303640",
+        "addr:city": "Lausanne",
+        "addr:housenumber": "3",
+        "addr:postcode": "1003",
+        "addr:street": "Allée Ernest-Ansermet",
+        "amenity": "cinema",
+        "fax": "+41 58 800 03 91",
+        "name": "Cinémathèque suisse",
+        "phone": "+41 58 800 02 00",
+        "website": "https://www.cinematheque.ch/",
+        "wikidata": "Q688143",
+        "wikipedia": "fr:Cinémathèque suisse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6252882,
+          46.5204083
+        ]
+      },
+      "id": "node/253303640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/283192423",
+        "addr:city": "La Sarraz",
+        "addr:postcode": "1315",
+        "addr:street": "Route d'Eclépens",
+        "amenity": "cinema",
+        "name": "Casino",
+        "phone": "+41 (0) 21 866 62 56",
+        "website": "https://www.cinerive.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5166993,
+          46.6589726
+        ]
+      },
+      "id": "node/283192423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/286363835",
+        "amenity": "cinema",
+        "capacity": "435",
+        "contact:facebook": "cinemavoltaire.ferneyvoltaire",
+        "contact:instagram": "cinemavoltaire",
+        "name": "Ciné Voltaire",
+        "phone": "+33 4 50 40 84 86",
+        "ref:FR:CNC": "157971",
+        "ref:FR:SIRET": "31345500800034",
+        "screen": "3",
+        "website": "http://cinema-voltaire.net/",
+        "wikidata": "Q61860766"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1193849,
+          46.2533154
+        ]
+      },
+      "id": "node/286363835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/287034838",
+        "addr:city": "Genève",
+        "addr:housenumber": "27",
+        "addr:postcode": "1211",
+        "addr:street": "Avenue Louis-Casaï",
+        "amenity": "cinema",
+        "name": "Pathé Balexert",
+        "wheelchair": "yes",
+        "wikidata": "Q35721074"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1137422,
+          46.218446
+        ]
+      },
+      "id": "node/287034838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/327328620",
+        "amenity": "cinema",
+        "contact:facebook": "https://www.facebook.com/cinemaechallensparadiso",
+        "contact:instagram": "https://www.instagram.com/cinemaechallens/",
+        "name": "Cinéma d'Echallens",
+        "phone": "+41 21 881 15 47",
+        "website": "https://www.cinemaechallens.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6349202,
+          46.6405773
+        ]
+      },
+      "id": "node/327328620"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/370383056",
+        "amenity": "cinema",
+        "name": "Rex 4",
+        "toilets:wheelchair": "no",
+        "website": "https://cinerive.ch",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8412193,
+          46.4609169
+        ]
+      },
+      "id": "node/370383056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/370383061",
+        "amenity": "cinema",
+        "drive_in": "no",
+        "name": "Rex 1-2-3",
+        "open_air": "no",
+        "screen": "3",
+        "website": "https://cinerive.com",
+        "wheelchair": "limited",
+        "wheelchair:description": "Accès handicapé : salle 1 & Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8410992,
+          46.461226
+        ]
+      },
+      "id": "node/370383061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/422637850",
+        "amenity": "cinema",
+        "name": "Grain d'Sel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0119894,
+          46.2517907
+        ]
+      },
+      "id": "node/422637850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/428246731",
+        "amenity": "cinema",
+        "name": "Capitole",
+        "phone": "+41 22 566 30 71",
+        "website": "http://www.cinema-capitole.ch/",
+        "wikidata": "Q35721663"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2383487,
+          46.3831802
+        ]
+      },
+      "id": "node/428246731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/478665196",
+        "amenity": "cinema",
+        "capacity": "244",
+        "drive_in": "no",
+        "name": "Astor",
+        "open_air": "no",
+        "phone": "+41 21 925 88 88",
+        "screen": "1",
+        "toilets:wheelchair": "no",
+        "website": "https://cinerive.com/",
+        "wheelchair": "yes",
+        "wikidata": "Q35721870"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8424739,
+          46.4615451
+        ]
+      },
+      "id": "node/478665196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/495167079",
+        "amenity": "cinema",
+        "name": "Urba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5311846,
+          46.7248776
+        ]
+      },
+      "id": "node/495167079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530627897",
+        "addr:city": "Gex",
+        "amenity": "cinema",
+        "capacity": "110",
+        "cinema:3D": "yes",
+        "contact:email": "contact@cinegex.fr",
+        "contact:facebook": "cinema.lepatio",
+        "name": "Le Patio",
+        "ref:FR:CNC": "176873",
+        "screen": "1",
+        "website": "http://www.cinegex.fr",
+        "wikidata": "Q61859894"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.058686,
+          46.3320243
+        ]
+      },
+      "id": "node/530627897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/550115055",
+        "amenity": "cinema",
+        "capacity": "308",
+        "contact:email": "cinema.morez@orange.fr",
+        "contact:facebook": "Cinéma-Casino-170156649739461",
+        "name": "Cinéma Casino",
+        "phone": "+33 3 84 33 14 55",
+        "ref:FR:CNC": "277940",
+        "screen": "2",
+        "website": "http://www.allocine.fr/seance/salle_gen_csalle=P3687.html",
+        "wikidata": "Q61858452"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0209902,
+          46.5233733
+        ]
+      },
+      "id": "node/550115055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/582822238",
+        "addr:city": "Carouge",
+        "addr:country": "CH",
+        "addr:housenumber": "47",
+        "addr:postcode": "1227",
+        "addr:street": "Rue Saint-Joseph",
+        "amenity": "cinema",
+        "name": "Cinema Bio",
+        "note": "surveyed by Alex-7",
+        "source": "survey",
+        "survey:date": "2013-01-22",
+        "toilets:wheelchair": "yes",
+        "website": "http://www.cinema-bio.ch",
+        "wheelchair": "yes",
+        "wheelchair:description": "Entrée FR sur Place du Marché",
+        "wikidata": "Q35720682"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1414237,
+          46.1844029
+        ]
+      },
+      "id": "node/582822238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/599221086",
+        "amenity": "cinema",
+        "name": "Cosmopolis",
+        "wikidata": "Q35718926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9631181,
+          46.3160921
+        ]
+      },
+      "id": "node/599221086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/672810312",
+        "addr:city": "Morzine",
+        "addr:housenumber": "170",
+        "addr:postcode": "74110",
+        "addr:street": "Rue du Bourg",
+        "amenity": "cinema",
+        "contact:facebook": "https://fr-fr.facebook.com/cinemarexmorzine",
+        "contact:phone": "+33 4 50 79 03 05",
+        "name": "Rex",
+        "opening_hours": "Mo-Su 15:00-22:30",
+        "ref:FR:CNC": "279184",
+        "screen": "1",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7064562,
+          46.179422
+        ]
+      },
+      "id": "node/672810312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/812018180",
+        "amenity": "cinema",
+        "name": "Plaza",
+        "phone": "+41 24 471 22 61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9475342,
+          46.2514535
+        ]
+      },
+      "id": "node/812018180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/912524709",
+        "addr:housenumber": "4",
+        "addr:street": "Rue du Maupas",
+        "amenity": "cinema",
+        "name": "Zinéma",
+        "phone": "+41 21 311 29 30",
+        "phone_1": "+41 76 567 12 91",
+        "website": "http://zinema.ch/",
+        "wikidata": "Q35721436"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6273157,
+          46.5240745
+        ]
+      },
+      "id": "node/912524709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/943126505",
+        "addr:city": "Genève",
+        "addr:housenumber": "3",
+        "addr:postcode": "1207",
+        "addr:street": "Place des Eaux-Vives",
+        "amenity": "cinema",
+        "designation": "Cinema City",
+        "name": "Le City",
+        "payment:cash": "yes",
+        "phone": "+41  22 736 89 20",
+        "screen": "1",
+        "website": "http://www.les-scala.ch/",
+        "wikidata": "Q35720796"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1567045,
+          46.2022469
+        ]
+      },
+      "id": "node/943126505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1017728319",
+        "amenity": "cinema",
+        "name": "Cinéma Central",
+        "wikidata": "Q35720770"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1433081,
+          46.2080991
+        ]
+      },
+      "id": "node/1017728319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1215867062",
+        "amenity": "cinema",
+        "name": "Le France",
+        "ref:FR:CNC": "426921"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4812987,
+          46.3699247
+        ]
+      },
+      "id": "node/1215867062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1263754509",
+        "addr:housenumber": "4",
+        "addr:street": "Route Aloys-Fauquez",
+        "amenity": "cinema",
+        "email": "info@cinemabellevaux.ch",
+        "name": "Bellevaux",
+        "phone": "+41 21 647 46 42",
+        "website": "http://www.cinemabellevaux.ch/",
+        "wikidata": "Q35721269"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6308459,
+          46.5328738
+        ]
+      },
+      "id": "node/1263754509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1464505190",
+        "addr:city": "Genève",
+        "amenity": "cinema",
+        "name": "Auditorium Fondation Arditi",
+        "opening_hours": "\"Depends on movie schedule\""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1399018,
+          46.2009726
+        ]
+      },
+      "id": "node/1464505190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1464505195",
+        "addr:city": "Genève",
+        "addr:housenumber": "27",
+        "addr:postcode": "1207",
+        "addr:street": "Rue des Eaux-Vives",
+        "amenity": "cinema",
+        "name": "Les Scala",
+        "payment:cash": "yes",
+        "phone": "+41 22 736 04 22",
+        "screen": "3",
+        "website": "http://www.les-scala.ch/",
+        "wheelchair": "no",
+        "wikidata": "Q35720935"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1581025,
+          46.204122
+        ]
+      },
+      "id": "node/1464505195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1464820955",
+        "amenity": "cinema",
+        "name": "Astor Film Lounge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1437959,
+          46.2022861
+        ]
+      },
+      "id": "node/1464820955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1464820962",
+        "amenity": "cinema",
+        "name": "Spoutnik",
+        "wikidata": "Q35720990"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.136084,
+          46.2039211
+        ]
+      },
+      "id": "node/1464820962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1464820975",
+        "addr:city": "Genève",
+        "addr:housenumber": "78",
+        "addr:postcode": "1202",
+        "addr:street": "Rue de la Servette",
+        "amenity": "cinema",
+        "name": "Le Nord-Sud",
+        "payment:cash": "yes",
+        "phone": "+41 22 733 19 00",
+        "screen": "2",
+        "website": "http://yellow.local.ch",
+        "wikidata": "Q35720877"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1325967,
+          46.2124731
+        ]
+      },
+      "id": "node/1464820975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1464820980",
+        "addr:city": "Genève",
+        "addr:housenumber": "8",
+        "addr:street": "Boulevard de Saint-Georges",
+        "amenity": "cinema",
+        "name": "Cinélux",
+        "note": "Heures d’ouverture La caisse ouvre 15 minutes avant le début de la première séance et ferme 30 minutes après le lancement de la dernière séance. Achat des billets En ligne À la caisse, directement durant les heures d’ouverture (paiement en espèce)",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "website": "https://www.cinelux.ch",
+        "wikidata": "Q35720621"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1314837,
+          46.2011449
+        ]
+      },
+      "id": "node/1464820980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1464820981",
+        "amenity": "cinema",
+        "description": "Les Cinémas du Grütli proposent une programmation qui s’articule autour de ciné-clubs, de cycles de répertoire, de films pour le jeune public et de cinéma art et essai.",
+        "name": "Grutli",
+        "opening_hours": "Mo-Fr 16:00-21:00; Sa, Su 14:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1415125,
+          46.2011175
+        ]
+      },
+      "id": "node/1464820981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1716282254",
+        "addr:city": "Lausanne",
+        "addr:housenumber": "6",
+        "addr:postcode": "1005",
+        "addr:street": "Avenue du Théâtre",
+        "amenity": "cinema",
+        "email": "info@cinematheque.ch",
+        "fax": "+41 58 800 03 91",
+        "name": "Le Capitole",
+        "phone": "+41 58 800 02 00",
+        "website": "http://www.lecapitole.ch/",
+        "wikidata": "Q2937483",
+        "wikipedia": "fr:Capitole (cinéma)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6357508,
+          46.5185518
+        ]
+      },
+      "id": "node/1716282254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1775842549",
+        "amenity": "cinema",
+        "designation": "Cinéma Rex",
+        "name": "Rex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3901109,
+          46.4955636
+        ]
+      },
+      "id": "node/1775842549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1936575906",
+        "addr:city": "Genève",
+        "addr:housenumber": "72-74",
+        "addr:postcode": "1205",
+        "addr:street": "Rue de Carouge",
+        "amenity": "cinema",
+        "name": "Cinérama Empire",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+41 22 310 72 74",
+        "screen": "1",
+        "website": "http://www.cinerama-empire.ch/",
+        "wheelchair": "yes",
+        "wikidata": "Q35721020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1437618,
+          46.1925301
+        ]
+      },
+      "id": "node/1936575906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1960745957",
+        "amenity": "cinema",
+        "name": "Le rouge et noir",
+        "ref:FR:CNC": "395484"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0800894,
+          46.1447495
+        ]
+      },
+      "id": "node/1960745957"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2133956380",
+        "addr:housenumber": "104",
+        "addr:street": "Route de Vonnes",
+        "amenity": "cinema",
+        "contact:email": "cinemorclan2000@orange.fr",
+        "contact:phone": "+33 4 50 73 29 54",
+        "name": "Le Chamois",
+        "ref:FR:CNC": "105092",
+        "screen": "1",
+        "website": "http://chamois.cine.allocine.fr/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8412518,
+          46.2662761
+        ]
+      },
+      "id": "node/2133956380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2501815561",
+        "addr:housenumber": "7",
+        "addr:postcode": "74110",
+        "addr:street": "Place Centrale",
+        "amenity": "cinema",
+        "name": "Les portes du soleil",
+        "ref:FR:CNC": "279192",
+        "website": "https://www.cinema-avoriaz.fr/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7769106,
+          46.1913555
+        ]
+      },
+      "id": "node/2501815561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3156559913",
+        "amenity": "cinema",
+        "name": "Sirius",
+        "wikidata": "Q47354334"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9004569,
+          46.5282172
+        ]
+      },
+      "id": "node/3156559913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3416284599",
+        "addr:housenumber": "3",
+        "addr:street": "Route de Morges",
+        "amenity": "cinema",
+        "fax": "+41 21 861 28 38",
+        "name": "Casino SA",
+        "opening_hours:signed": "no",
+        "phone": "+41 21 861 19 38",
+        "phone_1": "+41 79 917 10 92",
+        "smoking": "outside",
+        "website": "http://www.cinemacossonay.ch/",
+        "wikidata": "Q47354318"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5084754,
+          46.6129895
+        ]
+      },
+      "id": "node/3416284599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4949509622",
+        "amenity": "cinema",
+        "name": "Cinema Le Regency",
+        "name:fr": "Cinema Le Regency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0142771,
+          46.3439928
+        ]
+      },
+      "id": "node/4949509622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5334862277",
+        "addr:housenumber": "5",
+        "addr:street": "Rue du Clos Fleury",
+        "amenity": "cinema",
+        "cinema:3D": "no",
+        "name": "Le Salève",
+        "ref:FR:CNC": "19984",
+        "screen": "2",
+        "website": "https://www.cinema-annemasse.fr/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2320795,
+          46.1923332
+        ]
+      },
+      "id": "node/5334862277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5462385083",
+        "addr:city": "Montreux",
+        "addr:housenumber": "90",
+        "addr:postcode": "1820",
+        "addr:street": "Grand'Rue",
+        "amenity": "cinema",
+        "name": "Hollywood",
+        "website": "https://cinerive.com/",
+        "wikidata": "Q35721610"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9085159,
+          46.4370535
+        ]
+      },
+      "id": "node/5462385083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5469805826",
+        "addr:city": "Genève",
+        "addr:postcode": "1211",
+        "addr:street": "16, rue du Général Dufour",
+        "amenity": "cinema",
+        "description": "Metro Boulot Kino est une association qui fait des projections et discussions sur le thème du travail. Les projection on lieu à Fonction Cinéma a la Maison des Arts du Grütli.",
+        "name": "Metro Boulot Kino",
+        "website": "https://metroboulotkino.ch/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1417489,
+          46.201
+        ]
+      },
+      "id": "node/5469805826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5469805827",
+        "addr:city": "Genève",
+        "addr:postcode": "1211",
+        "addr:street": "16, rue du Général Dufour",
+        "amenity": "cinema",
+        "description": "Fonction : Cinéma est une association professionnelle à but non lucratif dont l’objectif est d’encourager la création cinématographique indépendante à Genève et en Suisse romande.",
+        "email": "contact@fonction-cinema.ch",
+        "name": "FONCTION: CINÉMA",
+        "phone": "+41 22 328 85 54",
+        "website": "https://fonction-cinema.ch/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1416872,
+          46.2009944
+        ]
+      },
+      "id": "node/5469805827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5535761551",
+        "addr:city": "Annemasse",
+        "addr:housenumber": "3",
+        "addr:postcode": "74100",
+        "addr:street": "Rue du 8 Mai 1945",
+        "amenity": "cinema",
+        "name": "Ciné Actuel",
+        "official_name": "Ciné Actuel MJC",
+        "phone": "+33 4 50 92 10 20",
+        "ref:FR:CNC": "19983",
+        "website": "http://www.cineactuel.fr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2326773,
+          46.1912727
+        ]
+      },
+      "id": "node/5535761551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5549893521",
+        "addr:housenumber": "10",
+        "addr:street": "Route des Jeunes",
+        "amenity": "cinema",
+        "name": "Cinéma Arena la Praille"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1277921,
+          46.1794646
+        ]
+      },
+      "id": "node/5549893521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6052687174",
+        "amenity": "cinema",
+        "capacity": "291",
+        "contact:email": "lesquinsonnets@wanadoo.fr",
+        "contact:facebook": "Cinéma-Les-Quinsonnets-951193165025775",
+        "name": "Les Quinsonnets",
+        "phone": "+33 3 84 60 30 09",
+        "ref:FR:CNC": "345631",
+        "screen": "2",
+        "website": "http://www.allocine.fr/seance/salle_gen_csalle=W0486.html",
+        "wikidata": "Q61860500"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0577325,
+          46.4840238
+        ]
+      },
+      "id": "node/6052687174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6101442515",
+        "addr:city": "Lausanne",
+        "addr:housenumber": "16",
+        "addr:postcode": "1003",
+        "addr:street": "Rue du Port-Franc",
+        "amenity": "cinema",
+        "email": "lausanne@pathe.ch",
+        "name": "Cinéma Pathé Flon",
+        "opening_hours": "Mo-Th, Su 10:00-23:00; Fr, Sa 10:00-01:30",
+        "toilets:wheelchair": "yes",
+        "website": "https://pathe.ch/fr/cinema-lausanne.html",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6266434,
+          46.5219006
+        ]
+      },
+      "id": "node/6101442515"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6239355918",
+        "amenity": "cinema",
+        "name": "Le Névé",
+        "opening_hours:note": "Cinéma ouvert pendant les vacances de Noël, d'Hiver et durant la saison d'été, juillet et août.",
+        "website": "https://hiver.lachapelledabondance-tourisme.com/equipement/cinema-le-neve-la-chapelle-dabondance/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7880957,
+          46.2955294
+        ]
+      },
+      "id": "node/6239355918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6765966320",
+        "addr:housenumber": "9",
+        "addr:street": "Rue du Bourg",
+        "amenity": "cinema",
+        "name": "Cinéma de Chexbres",
+        "screen": "1",
+        "start_date": "1952",
+        "website": "http://www.cinechexbres.ch/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7801447,
+          46.4811508
+        ]
+      },
+      "id": "node/6765966320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6898535586",
+        "addr:city": "Lausanne",
+        "addr:housenumber": "9",
+        "addr:postcode": "1004",
+        "addr:street": "Avenue de France",
+        "amenity": "cinema",
+        "name": "Oblò"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.624014,
+          46.5240999
+        ]
+      },
+      "id": "node/6898535586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7352254941",
+        "amenity": "cinema",
+        "name": "CityClub Pully",
+        "phone": "+41 21 711 31 91",
+        "website": "https://www.cityclubpully.ch/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6589031,
+          46.5120427
+        ]
+      },
+      "id": "node/7352254941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7604587182",
+        "amenity": "cinema",
+        "brand": "Cinéode",
+        "brand:website": "https://www.cineode.fr",
+        "brand:wikidata": "Q97017093",
+        "capacity": "193",
+        "name": "Le Roc",
+        "opening_hours:note": "Le cinéma est ouvert pendant les saisons d'Hiver et d'Eté : Du mois de Décembre au mois d'Avril et du mois de Juillet au mois d'Août.",
+        "phone": "+33 3 23 52 37 38",
+        "ref:FR:CNC": "426761",
+        "screen": "1",
+        "website": "https://www.cineode.fr/le-roc/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7157082,
+          46.3901366
+        ]
+      },
+      "id": "node/7604587182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7624996741",
+        "amenity": "cinema",
+        "capacity": "200",
+        "level": "1",
+        "name": "Salle des fêtes",
+        "note:opening_hours": "\"Ouvert pendant les vacances de février\"",
+        "operator": "Cinéma Les Quinsonnets, Les Rousses",
+        "ref:FR:CNC": "262461",
+        "screen": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9967312,
+          46.3664215
+        ]
+      },
+      "id": "node/7624996741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7731319051",
+        "amenity": "cinema",
+        "capacity": "150",
+        "name": "Les Chavannes",
+        "operator": "Écran mobile 74",
+        "ref:FR:CNC": "6297601",
+        "screen": "1",
+        "website": "http://www.fol74.org/cinema-itinerant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4795813,
+          46.1739086
+        ]
+      },
+      "id": "node/7731319051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7732302060",
+        "amenity": "cinema",
+        "name": "Salle polyvalente",
+        "operator": "Écran mobile 74",
+        "ref:FR:CNC": "6297601-",
+        "screen": "1",
+        "website": "https://www.foyer-rural-cervens.fr/24-le-foyer-rural/38-cinema.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4394818,
+          46.2847369
+        ]
+      },
+      "id": "node/7732302060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7732309605",
+        "amenity": "cinema",
+        "capacity": "150",
+        "email": "manon.majeliveprod@gmail.com",
+        "mobile": "+33 6 95 24 54 42",
+        "name": "Le Starting Block",
+        "old_name": "Le César",
+        "phone": "+33 4 50 73 60 72",
+        "screen": "1",
+        "start_date": "2017-12",
+        "website": "https://www.lestartingblock.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6748924,
+          46.3607945
+        ]
+      },
+      "id": "node/7732309605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7734607656",
+        "amenity": "cinema",
+        "capacity": "250",
+        "name": "Salle d’animation rurale",
+        "operator": "Écran mobile 74",
+        "ref:FR:CNC": "6297601-",
+        "screen": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3314965,
+          46.2527765
+        ]
+      },
+      "id": "node/7734607656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7742844166",
+        "amenity": "cinema",
+        "contact:facebook": "cinetoiledesciez",
+        "email": "cinemadesciez@gmail.com",
+        "name": "Cinétoile",
+        "operator": "Écran mobile 74",
+        "phone": "+33 4 50 72 70 47",
+        "ref:FR:CNC": "6297601-",
+        "screen": "1",
+        "website": "https://www.foyerculturel-sciez.fr/cinetoile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3807827,
+          46.3328538
+        ]
+      },
+      "id": "node/7742844166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7747608645",
+        "amenity": "cinema",
+        "capacity": "131",
+        "cinema:3D": "no",
+        "email": "cinema.divonne@partouche.com",
+        "name": "Cinéma-théâtre du Domaine de Divonne",
+        "phone": "+33 4 50 40 33 85",
+        "ref:FR:Allocine": "W0999",
+        "ref:FR:CNC": "139283",
+        "screen": "1",
+        "website": "https://casino-divonne.partouche.com/agenda/1840-programmation-du-cinema-theatre",
+        "wikidata": "Q97394664"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1369693,
+          46.3570692
+        ]
+      },
+      "id": "node/7747608645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7751942259",
+        "amenity": "cinema",
+        "contact:facebook": "lebordeau",
+        "contact:instagram": "cinetheatrelebordeau",
+        "email": "cinema@saint-genis-pouilly.fr",
+        "name": "Théâtre du Bordeau",
+        "operator": "Commune de Saint-Genis-Pouilly",
+        "phone": "+33 4 50 20 52 86",
+        "ref:FR:Allocine": "W6301",
+        "ref:FR:CNC": "724640",
+        "website": "https://www.saint-genis-pouilly.fr/theatre-du-bordeau",
+        "wikidata": "Q97693123"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.022521,
+          46.2425794
+        ]
+      },
+      "id": "node/7751942259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8517730042",
+        "addr:city": "Fillinges",
+        "addr:housenumber": "875",
+        "addr:postcode": "74250",
+        "addr:street": "Route du Chef-Lieu",
+        "amenity": "cinema",
+        "contact:website": "http://www.fillinges.fr/evenements/programme-du-cinema.html",
+        "name": "Ciné Fill'"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3434498,
+          46.1591276
+        ]
+      },
+      "id": "node/8517730042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8524689456",
+        "addr:city": "Lausanne",
+        "addr:country": "CH",
+        "amenity": "cinema",
+        "name": "Pathé Galeries",
+        "opening_hours": "Mo-Su,PH 10:00-24:00+",
+        "wikidata": "Q35721521"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6300349,
+          46.5181289
+        ]
+      },
+      "id": "node/8524689456"
+    }
+  ]
+}

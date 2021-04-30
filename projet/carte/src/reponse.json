@@ -1,0 +1,588 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.56.9 76e5016d",
+    "osm3s": {
+      "timestamp_osm_base": "2021-04-30T12:39:03Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+  
+  {
+    "type": "node",
+    "id": 253266818,
+    "lat": 46.5273408,
+    "lon": 6.6025465,
+    "tags": {
+      "amenity": "cinema",
+      "name": "Cinétoile - Malley Lumières",
+      "toilets": "yes",
+      "toilets:access": "customers",
+      "toilets:wheelchair": "designated",
+      "wheelchair": "limited",
+      "wheelchair:description": "All rooms except number 4 are accessible",
+      "wikidata": "Q35721691"
+    }
+  },
+  {
+    "type": "node",
+    "id": 253266825,
+    "lat": 46.5077991,
+    "lon": 6.4958654,
+    "tags": {
+      "addr:city": "Morges",
+      "addr:country": "CH",
+      "addr:housenumber": "4",
+      "addr:postcode": "1110",
+      "addr:street": "Place Charles Dufour",
+      "amenity": "cinema",
+      "contact:phone": "+41 21 802 47 01",
+      "contact:website": "http://cinemaodeon.ch",
+      "name": "Odéon",
+      "phone": "+41 (0) 21 802 47 01",
+      "website": "http://www.cinemaodeon.ch/",
+      "wikidata": "Q35721636"
+    }
+  },
+  {
+    "type": "node",
+    "id": 253303640,
+    "lat": 46.5204083,
+    "lon": 6.6252882,
+    "tags": {
+      "addr:city": "Lausanne",
+      "addr:housenumber": "3",
+      "addr:postcode": "1003",
+      "addr:street": "Allée Ernest-Ansermet",
+      "amenity": "cinema",
+      "fax": "+41 58 800 03 91",
+      "name": "Cinémathèque suisse",
+      "phone": "+41 58 800 02 00",
+      "website": "https://www.cinematheque.ch/",
+      "wikidata": "Q688143",
+      "wikipedia": "fr:Cinémathèque suisse"
+    }
+  },
+  {
+    "type": "node",
+    "id": 283192423,
+    "lat": 46.6589726,
+    "lon": 6.5166993,
+    "tags": {
+      "addr:city": "La Sarraz",
+      "addr:postcode": "1315",
+      "addr:street": "Route d'Eclépens",
+      "amenity": "cinema",
+      "name": "Casino",
+      "phone": "+41 (0) 21 866 62 56",
+      "website": "https://www.cinerive.com/",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 327328620,
+    "lat": 46.6405773,
+    "lon": 6.6349202,
+    "tags": {
+      "amenity": "cinema",
+      "contact:facebook": "https://www.facebook.com/cinemaechallensparadiso",
+      "contact:instagram": "https://www.instagram.com/cinemaechallens/",
+      "name": "Cinéma d'Echallens",
+      "phone": "+41 21 881 15 47",
+      "website": "https://www.cinemaechallens.com/",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 370383056,
+    "lat": 46.4609169,
+    "lon": 6.8412193,
+    "tags": {
+      "amenity": "cinema",
+      "name": "Rex 4",
+      "toilets:wheelchair": "no",
+      "website": "https://cinerive.ch",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 370383061,
+    "lat": 46.4612260,
+    "lon": 6.8410992,
+    "tags": {
+      "amenity": "cinema",
+      "drive_in": "no",
+      "name": "Rex 1-2-3",
+      "open_air": "no",
+      "screen": "3",
+      "website": "https://cinerive.com",
+      "wheelchair": "limited",
+      "wheelchair:description": "Accès handicapé : salle 1 & Restaurant"
+    }
+  },
+  {
+    "type": "node",
+    "id": 428246731,
+    "lat": 46.3831802,
+    "lon": 6.2383487,
+    "tags": {
+      "amenity": "cinema",
+      "name": "Capitole",
+      "phone": "+41 22 566 30 71",
+      "website": "http://www.cinema-capitole.ch/",
+      "wikidata": "Q35721663"
+    }
+  },
+  {
+    "type": "node",
+    "id": 478665196,
+    "lat": 46.4615451,
+    "lon": 6.8424739,
+    "tags": {
+      "amenity": "cinema",
+      "capacity": "244",
+      "drive_in": "no",
+      "name": "Astor",
+      "open_air": "no",
+      "phone": "+41 21 925 88 88",
+      "screen": "1",
+      "toilets:wheelchair": "no",
+      "website": "https://cinerive.com/",
+      "wheelchair": "yes",
+      "wikidata": "Q35721870"
+    }
+  },
+  {
+    "type": "node",
+    "id": 495167079,
+    "lat": 46.7248776,
+    "lon": 6.5311846,
+    "tags": {
+      "amenity": "cinema",
+      "name": "Urba"
+    }
+  },
+  {
+    "type": "node",
+    "id": 672810312,
+    "lat": 46.1794220,
+    "lon": 6.7064562,
+    "tags": {
+      "addr:city": "Morzine",
+      "addr:housenumber": "170",
+      "addr:postcode": "74110",
+      "addr:street": "Rue du Bourg",
+      "amenity": "cinema",
+      "contact:facebook": "https://fr-fr.facebook.com/cinemarexmorzine",
+      "contact:phone": "+33 4 50 79 03 05",
+      "name": "Rex",
+      "opening_hours": "Mo-Su 15:00-22:30",
+      "ref:FR:CNC": "279184",
+      "screen": "1",
+      "source": "survey"
+    }
+  },
+  {
+    "type": "node",
+    "id": 912524709,
+    "lat": 46.5240745,
+    "lon": 6.6273157,
+    "tags": {
+      "addr:housenumber": "4",
+      "addr:street": "Rue du Maupas",
+      "amenity": "cinema",
+      "name": "Zinéma",
+      "phone": "+41 21 311 29 30",
+      "phone_1": "+41 76 567 12 91",
+      "website": "http://zinema.ch/",
+      "wikidata": "Q35721436"
+    }
+  },
+  {
+    "type": "node",
+    "id": 943126505,
+    "lat": 46.2022469,
+    "lon": 6.1567045,
+    "tags": {
+      "addr:city": "Genève",
+      "addr:housenumber": "3",
+      "addr:postcode": "1207",
+      "addr:street": "Place des Eaux-Vives",
+      "amenity": "cinema",
+      "designation": "Cinema City",
+      "name": "Le City",
+      "payment:cash": "yes",
+      "phone": "+41  22 736 89 20",
+      "screen": "1",
+      "website": "http://www.les-scala.ch/",
+      "wikidata": "Q35720796"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1215867062,
+    "lat": 46.3699247,
+    "lon": 6.4812987,
+    "tags": {
+      "amenity": "cinema",
+      "name": "Le France",
+      "ref:FR:CNC": "426921"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1263754509,
+    "lat": 46.5328738,
+    "lon": 6.6308459,
+    "tags": {
+      "addr:housenumber": "4",
+      "addr:street": "Route Aloys-Fauquez",
+      "amenity": "cinema",
+      "email": "info@cinemabellevaux.ch",
+      "name": "Bellevaux",
+      "phone": "+41 21 647 46 42",
+      "website": "http://www.cinemabellevaux.ch/",
+      "wikidata": "Q35721269"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1464505195,
+    "lat": 46.2041220,
+    "lon": 6.1581025,
+    "tags": {
+      "addr:city": "Genève",
+      "addr:housenumber": "27",
+      "addr:postcode": "1207",
+      "addr:street": "Rue des Eaux-Vives",
+      "amenity": "cinema",
+      "name": "Les Scala",
+      "payment:cash": "yes",
+      "phone": "+41 22 736 04 22",
+      "screen": "3",
+      "website": "http://www.les-scala.ch/",
+      "wheelchair": "no",
+      "wikidata": "Q35720935"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1716282254,
+    "lat": 46.5185518,
+    "lon": 6.6357508,
+    "tags": {
+      "addr:city": "Lausanne",
+      "addr:housenumber": "6",
+      "addr:postcode": "1005",
+      "addr:street": "Avenue du Théâtre",
+      "amenity": "cinema",
+      "email": "info@cinematheque.ch",
+      "fax": "+41 58 800 03 91",
+      "name": "Le Capitole",
+      "phone": "+41 58 800 02 00",
+      "website": "http://www.lecapitole.ch/",
+      "wikidata": "Q2937483",
+      "wikipedia": "fr:Capitole (cinéma)"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1775842549,
+    "lat": 46.4955636,
+    "lon": 6.3901109,
+    "tags": {
+      "amenity": "cinema",
+      "designation": "Cinéma Rex",
+      "name": "Rex"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2133956380,
+    "lat": 46.2662761,
+    "lon": 6.8412518,
+    "tags": {
+      "addr:housenumber": "104",
+      "addr:street": "Route de Vonnes",
+      "amenity": "cinema",
+      "contact:email": "cinemorclan2000@orange.fr",
+      "contact:phone": "+33 4 50 73 29 54",
+      "name": "Le Chamois",
+      "ref:FR:CNC": "105092",
+      "screen": "1",
+      "website": "http://chamois.cine.allocine.fr/",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2501815561,
+    "lat": 46.1913555,
+    "lon": 6.7769106,
+    "tags": {
+      "addr:housenumber": "7",
+      "addr:postcode": "74110",
+      "addr:street": "Place Centrale",
+      "amenity": "cinema",
+      "name": "Les portes du soleil",
+      "ref:FR:CNC": "279192",
+      "website": "https://www.cinema-avoriaz.fr/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3416284599,
+    "lat": 46.6129895,
+    "lon": 6.5084754,
+    "tags": {
+      "addr:housenumber": "3",
+      "addr:street": "Route de Morges",
+      "amenity": "cinema",
+      "fax": "+41 21 861 28 38",
+      "name": "Casino SA",
+      "opening_hours:signed": "no",
+      "phone": "+41 21 861 19 38",
+      "phone_1": "+41 79 917 10 92",
+      "smoking": "outside",
+      "website": "http://www.cinemacossonay.ch/",
+      "wikidata": "Q47354318"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5334862277,
+    "lat": 46.1923332,
+    "lon": 6.2320795,
+    "tags": {
+      "addr:housenumber": "5",
+      "addr:street": "Rue du Clos Fleury",
+      "amenity": "cinema",
+      "cinema:3D": "no",
+      "name": "Le Salève",
+      "ref:FR:CNC": "19984",
+      "screen": "2",
+      "website": "https://www.cinema-annemasse.fr/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5535761551,
+    "lat": 46.1912727,
+    "lon": 6.2326773,
+    "tags": {
+      "addr:city": "Annemasse",
+      "addr:housenumber": "3",
+      "addr:postcode": "74100",
+      "addr:street": "Rue du 8 Mai 1945",
+      "amenity": "cinema",
+      "name": "Ciné Actuel",
+      "official_name": "Ciné Actuel MJC",
+      "phone": "+33 4 50 92 10 20",
+      "ref:FR:CNC": "19983",
+      "website": "http://www.cineactuel.fr"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6101442515,
+    "lat": 46.5219006,
+    "lon": 6.6266434,
+    "tags": {
+      "addr:city": "Lausanne",
+      "addr:housenumber": "16",
+      "addr:postcode": "1003",
+      "addr:street": "Rue du Port-Franc",
+      "amenity": "cinema",
+      "email": "lausanne@pathe.ch",
+      "name": "Cinéma Pathé Flon",
+      "opening_hours": "Mo-Th, Su 10:00-23:00; Fr, Sa 10:00-01:30",
+      "toilets:wheelchair": "yes",
+      "website": "https://pathe.ch/fr/cinema-lausanne.html",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6239355918,
+    "lat": 46.2955294,
+    "lon": 6.7880957,
+    "tags": {
+      "amenity": "cinema",
+      "name": "Le Névé",
+      "opening_hours:note": "Cinéma ouvert pendant les vacances de Noël, d'Hiver et durant la saison d'été, juillet et août.",
+      "website": "https://hiver.lachapelledabondance-tourisme.com/equipement/cinema-le-neve-la-chapelle-dabondance/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6765966320,
+    "lat": 46.4811508,
+    "lon": 6.7801447,
+    "tags": {
+      "addr:housenumber": "9",
+      "addr:street": "Rue du Bourg",
+      "amenity": "cinema",
+      "name": "Cinéma de Chexbres",
+      "screen": "1",
+      "start_date": "1952",
+      "website": "http://www.cinechexbres.ch/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6898535586,
+    "lat": 46.5240999,
+    "lon": 6.6240140,
+    "tags": {
+      "addr:city": "Lausanne",
+      "addr:housenumber": "9",
+      "addr:postcode": "1004",
+      "addr:street": "Avenue de France",
+      "amenity": "cinema",
+      "name": "Oblò"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7352254941,
+    "lat": 46.5120427,
+    "lon": 6.6589031,
+    "tags": {
+      "amenity": "cinema",
+      "name": "CityClub Pully",
+      "phone": "+41 21 711 31 91",
+      "website": "https://www.cityclubpully.ch/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7604587182,
+    "lat": 46.3901366,
+    "lon": 6.7157082,
+    "tags": {
+      "amenity": "cinema",
+      "brand": "Cinéode",
+      "brand:website": "https://www.cineode.fr",
+      "brand:wikidata": "Q97017093",
+      "capacity": "193",
+      "name": "Le Roc",
+      "opening_hours:note": "Le cinéma est ouvert pendant les saisons d'Hiver et d'Eté : Du mois de Décembre au mois d'Avril et du mois de Juillet au mois d'Août.",
+      "phone": "+33 3 23 52 37 38",
+      "ref:FR:CNC": "426761",
+      "screen": "1",
+      "website": "https://www.cineode.fr/le-roc/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7731319051,
+    "lat": 46.1739086,
+    "lon": 6.4795813,
+    "tags": {
+      "amenity": "cinema",
+      "capacity": "150",
+      "name": "Les Chavannes",
+      "operator": "Écran mobile 74",
+      "ref:FR:CNC": "6297601",
+      "screen": "1",
+      "website": "http://www.fol74.org/cinema-itinerant"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7732302060,
+    "lat": 46.2847369,
+    "lon": 6.4394818,
+    "tags": {
+      "amenity": "cinema",
+      "name": "Salle polyvalente",
+      "operator": "Écran mobile 74",
+      "ref:FR:CNC": "6297601-",
+      "screen": "1",
+      "website": "https://www.foyer-rural-cervens.fr/24-le-foyer-rural/38-cinema.html"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7732309605,
+    "lat": 46.3607945,
+    "lon": 6.6748924,
+    "tags": {
+      "amenity": "cinema",
+      "capacity": "150",
+      "email": "manon.majeliveprod@gmail.com",
+      "mobile": "+33 6 95 24 54 42",
+      "name": "Le Starting Block",
+      "old_name": "Le César",
+      "phone": "+33 4 50 73 60 72",
+      "screen": "1",
+      "start_date": "2017-12",
+      "website": "https://www.lestartingblock.com"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7734607656,
+    "lat": 46.2527765,
+    "lon": 6.3314965,
+    "tags": {
+      "amenity": "cinema",
+      "capacity": "250",
+      "name": "Salle d’animation rurale",
+      "operator": "Écran mobile 74",
+      "ref:FR:CNC": "6297601-",
+      "screen": "1"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7742844166,
+    "lat": 46.3328538,
+    "lon": 6.3807827,
+    "tags": {
+      "amenity": "cinema",
+      "contact:facebook": "cinetoiledesciez",
+      "email": "cinemadesciez@gmail.com",
+      "name": "Cinétoile",
+      "operator": "Écran mobile 74",
+      "phone": "+33 4 50 72 70 47",
+      "ref:FR:CNC": "6297601-",
+      "screen": "1",
+      "website": "https://www.foyerculturel-sciez.fr/cinetoile"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8517730042,
+    "lat": 46.1591276,
+    "lon": 6.3434498,
+    "tags": {
+      "addr:city": "Fillinges",
+      "addr:housenumber": "875",
+      "addr:postcode": "74250",
+      "addr:street": "Route du Chef-Lieu",
+      "amenity": "cinema",
+      "contact:website": "http://www.fillinges.fr/evenements/programme-du-cinema.html",
+      "name": "Ciné Fill'"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8524689456,
+    "lat": 46.5181289,
+    "lon": 6.6300349,
+    "tags": {
+      "addr:city": "Lausanne",
+      "addr:country": "CH",
+      "amenity": "cinema",
+      "name": "Pathé Galeries",
+      "opening_hours": "Mo-Su,PH 10:00-24:00+",
+      "wikidata": "Q35721521"
+    }
+  }
+  
+    ]
+  }
+  
