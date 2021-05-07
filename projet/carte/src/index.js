@@ -1,11 +1,9 @@
 import L from 'leaflet';
 import turfCircles from '@turf/circle';
 import {bbox} from '@turf/turf';
-console.log(bbox);
+
 var coordonnees = [46.54841, 6.51307];
 
-
-//On peut changer les coordonnées pour changer le lieu du fond
 const map = L.map('map').setView(coordonnees, 10)
 
 var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -13,7 +11,7 @@ var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors'
 }).addTo(map)
 
-var circle ;
+var circle;
 
 //dessin du cercle
 function dessineCircle(lat, long) {
@@ -33,19 +31,36 @@ function supprimerCercle() {
   }
 }
 
+var iconeCinema = L.icon({
+  iconUrl: 'images/marker-cinema.png',
+  iconSize: [50, 95],
+  iconAnchor: [22, 94],
+  popupAnchor: [-3, -76],
+  
+});
+
+function ajouterMarqueur({lat, lon, nom}) {
+  L.marker([lat, lon], {icon: iconeCinema}).bindPopup(nom)
+  
+  .addTo(map)
+}
+
 map.on('click', evt => {
   supprimerCercle()
-  const lat = evt.latlng.lat;
-  const long = evt.latlng.lng;
-  dessineCircle(lat, long);
+  const latitude = evt.latlng.lat;
+  const longitude = evt.latlng.lng;
+  dessineCircle(latitude, longitude);
+  //zoom
+  map.flyTo([latitude, longitude], 13)
   //délimitation du rond autour de la coordonnée
   var radius = 3;
-  var point = [lat, long];
+  var point = [latitude, longitude];
   var options = { steps: 10, units: 'kilometers', properties: { foo: 'bar' } };
   var circle = turfCircles(point, radius, options);
   var contour = bbox(circle)
 
-  recupererDonnees('cinema', contour).then(console.log)
+  recupererDonnees('cinema', contour)
+    .then(d => d.map(ajouterMarqueur))
 });
 
 const recupererDonnees = (type, contour) => {
@@ -70,7 +85,7 @@ const recupererDonnees = (type, contour) => {
     "mode": "cors",
     "credentials": "omit"
   }).then(r => r.json())
-      .then(d => d.elements.map(d => ({lat : d.lat, lon : d.lon, nom : d.tags.name}))) //tableau (filtrer ici les données)
+      .then(d => d.elements.map(d => ({lat : d.lat, lon : d.lon, nom : d.tags.name})))
   
   }
 

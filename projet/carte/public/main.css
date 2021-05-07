@@ -1,6 +1,6 @@
 html, body {
     margin: 0;
-    width: 0;
+    width: 100vw;
     font-family: roboto, sans-serif;
   }
   #map {
@@ -8,14 +8,14 @@ html, body {
     height: 70vh;
   }
   header {
-    width: 100vw;
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem 20rem;
     /*color: #ba987e;
     background-color: #fcf1e8;*/
     text-align: center;
     border-bottom: #ba987e solid 2px;
   }
   footer {
+    display: line;
     width: 100vw;
     text-align: center;
     border-top: #ba987e solid 2px;
