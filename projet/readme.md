@@ -14,4 +14,7 @@ Il nous restera à afficher visuellement les cinémas, puis de faire la même ch
 
 ## 07 mai
 Nous avons ajouté un effet de zoom à la carte et affiché visuellement les cinémas.
-Il nous reste à afficher les musées et bar, à réfléchir à l'utilité de notre rond et à rendre l'app responsive. 
+Il nous reste à afficher les musées et bar, à réfléchir à l'utilité de notre rond et à rendre l'app responsive.
+Il faudra aussi qu'on gère les groupes de marker. 
+Lien utiles pour nous : https://leafletjs.com/reference-1.7.1.html#marker (pour les marker)
+et : https://leafletjs.com/examples/layers-control/ (pour les groupes)
