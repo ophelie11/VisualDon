@@ -19,6 +19,7 @@
     "@turf/bbox": "^6.3.0",
     "@turf/circle": "^6.3.0",
     "@turf/turf": "^6.3.0",
-    "leaflet": "^1.7.1"
+    "leaflet": "^1.7.1",
+    "leaflet-spin": "^1.1.2"
   }
 }

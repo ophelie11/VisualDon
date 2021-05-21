@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.9.1/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-cylinder id="cylindre" position="0 1.25 -5" radius="2" rotation="0 45 0" color="#cb99c9"></a-cylinder>
+      <a-sky color="black"></a-sky>
+    </a-scene>
+
+    <script>
+const cylindre = document.getElementById('cylindre')
+let rotation = 0
+
+const tick = () => {
+  rotation = rotation + 1
+  cylindre.setAttribute('rotation', `${rotation} ${rotation} ${rotation}`)
+  requestAnimationFrame(tick)
+}
+requestAnimationFrame(tick)
+
+    </script>
+  </body>
+</html>

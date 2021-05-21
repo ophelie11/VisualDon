@@ -1,6 +1,6 @@
-import L from 'leaflet';
+import L, { layerGroup } from 'leaflet';
 import turfCircles from '@turf/circle';
-import {bbox} from '@turf/turf';
+import { bbox } from '@turf/turf';
 
 var coordonnees = [46.54841, 6.51307];
 
@@ -11,47 +11,66 @@ var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors'
 }).addTo(map)
 
-var circle;
+//var circle;
 
-//dessin du cercle
-function dessineCircle(lat, long) {
+// //dessin du cercle
+// function dessineCircle(lat, long) {
 
-   circle = L.circle([lat, long], {
-    color: 'grey',
-    //fillColor: '#cc',
-    fillOpacity: 0.5,
-    radius: 3000
-  }).addTo(map);
+//    circle = L.circle([lat, long], {
+//     color: 'grey',
+//     //fillColor: '#cc',
+//     fillOpacity: 0.5,
+//     radius: 3000
+//   }).addTo(map);
 
-}
+// }
 
-function supprimerCercle() {
-  if (circle) {
-    map.removeLayer(circle)
-  }
-}
+// function supprimerCercle() {
+//   if (circle) {
+//     map.removeLayer(circle)
+//   }
+// }
 
 var iconeCinema = L.icon({
-  iconUrl: 'images/marker-cinema.png',
-  iconSize: [50, 95],
-  iconAnchor: [22, 94],
-  popupAnchor: [-3, -76],
-  
+  iconUrl: 'images/marker-cinema.svg',
+  iconSize: [50, 80],
+  iconAnchor: [10, 60],
+  popupAnchor: [15, -40],
+
+});
+var iconeBar = L.icon({
+  iconUrl: 'images/marker-bar.svg',
+  iconSize: [50, 80],
+  iconAnchor: [10, 60],
+  popupAnchor: [15, -40],
+
 });
 
-function ajouterMarqueur({lat, lon, nom}) {
-  L.marker([lat, lon], {icon: iconeCinema}).bindPopup(nom)
-  
-  .addTo(map)
+function ajouterMarqueursCinema({ lat, lon, nom }) {
+  let cinemaM = L.marker([lat, lon], { icon: iconeCinema }).bindPopup(nom);
+  let cinema = layerGroup([cinemaM]);
+  if(cinema) {
+    map.removeLayer(cinema);
+  }
+  cinema.addTo(map);
+}
+function ajouterMarqueursBar({ lat, lon, nom }) {
+  L.marker([lat, lon], { icon: iconeBar }).bindPopup(nom)
+  .addTo(map);
 }
 
+function msgErreur() {
+  alert("Erreur");
+}
+
+
 map.on('click', evt => {
-  supprimerCercle()
+  //supprimerCercle()
   const latitude = evt.latlng.lat;
   const longitude = evt.latlng.lng;
-  dessineCircle(latitude, longitude);
+  //dessineCircle(latitude, longitude);
   //zoom
-  map.flyTo([latitude, longitude], 13)
+  map.flyTo([latitude, longitude], 14)
   //délimitation du rond autour de la coordonnée
   var radius = 3;
   var point = [latitude, longitude];
@@ -60,7 +79,12 @@ map.on('click', evt => {
   var contour = bbox(circle)
 
   recupererDonnees('cinema', contour)
-    .then(d => d.map(ajouterMarqueur))
+    .then(d => d.map(ajouterMarqueursCinema))
+    //.then(setTimeout(msgErreur(), 3000))
+
+  recupererDonnees('bar', contour)
+    .then(d => d.map(ajouterMarqueursBar))
+
 });
 
 const recupererDonnees = (type, contour) => {
@@ -85,9 +109,9 @@ const recupererDonnees = (type, contour) => {
     "mode": "cors",
     "credentials": "omit"
   }).then(r => r.json())
-      .then(d => d.elements.map(d => ({lat : d.lat, lon : d.lon, nom : d.tags.name})))
-  
-  }
+    .then(d => d.elements.map(d => ({ lat: d.lat, lon: d.lon, nom: d.tags.name })));
+
+}
 
 
 
