@@ -18,3 +18,8 @@ Il nous reste à afficher les musées et bar, à réfléchir à l'utilité de no
 Il faudra aussi qu'on gère les groupes de marker. 
 Lien utiles pour nous : https://leafletjs.com/reference-1.7.1.html#marker (pour les marker)
 et : https://leafletjs.com/examples/layers-control/ (pour les groupes)
+
+## 21 mai
+Nous avons décidé d'abandonner les musées, nous avons revu le texte et adapté l'app en responsive.
+Il nous reste à faire un retour visuel pour l'utilisateur lors du chargement et en cas d'erreur.
+Nous n'avons pas encore réussi à enlevé les markers (à les grouper)

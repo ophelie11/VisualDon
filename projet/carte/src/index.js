@@ -11,25 +11,6 @@ var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors'
 }).addTo(map)
 
-//var circle;
-
-// //dessin du cercle
-// function dessineCircle(lat, long) {
-
-//    circle = L.circle([lat, long], {
-//     color: 'grey',
-//     //fillColor: '#cc',
-//     fillOpacity: 0.5,
-//     radius: 3000
-//   }).addTo(map);
-
-// }
-
-// function supprimerCercle() {
-//   if (circle) {
-//     map.removeLayer(circle)
-//   }
-// }
 
 var iconeCinema = L.icon({
   iconUrl: 'images/marker-cinema.svg',
@@ -60,15 +41,13 @@ function ajouterMarqueursBar({ lat, lon, nom }) {
 }
 
 function msgErreur() {
-  alert("Erreur");
+  alert("Oups... Nous n'avons pas réussi à charger les résultats, essaie encore !");
 }
 
-
 map.on('click', evt => {
-  //supprimerCercle()
   const latitude = evt.latlng.lat;
   const longitude = evt.latlng.lng;
-  //dessineCircle(latitude, longitude);
+  
   //zoom
   map.flyTo([latitude, longitude], 14)
   //délimitation du rond autour de la coordonnée
@@ -80,7 +59,8 @@ map.on('click', evt => {
 
   recupererDonnees('cinema', contour)
     .then(d => d.map(ajouterMarqueursCinema))
-    //.then(setTimeout(msgErreur(), 3000))
+    //.then(setTimeout(msgErreur(), 3000));
+    
 
   recupererDonnees('bar', contour)
     .then(d => d.map(ajouterMarqueursBar))
@@ -109,7 +89,8 @@ const recupererDonnees = (type, contour) => {
     "mode": "cors",
     "credentials": "omit"
   }).then(r => r.json())
-    .then(d => d.elements.map(d => ({ lat: d.lat, lon: d.lon, nom: d.tags.name })));
+    .then(d => d.elements.map(d => ({ lat: d.lat, lon: d.lon, nom: d.tags.name })))
+    
 
 }
 
